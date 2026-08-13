@@ -1,0 +1,233 @@
+[
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Computer",
+    "Servizio": "PRIMO AVVIO COMPUTER",
+    "Codice": 433214,
+    "Costo": 19.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Computer",
+    "Servizio": "PC READY (RTU)",
+    "Codice": 748372,
+    "Costo": 29.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Computer",
+    "Servizio": "CALIBRAZIONE NOTEBOOK",
+    "Codice": 421563,
+    "Costo": 29.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Computer",
+    "Servizio": "RTU + Calibrazione",
+    "Codice": 595964,
+    "Costo": 39.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "PRIMO AVVIO SMARTPHONE/WATCH",
+    "Codice": 215393,
+    "Costo": 19.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TRASFERIMENTO DATI FINO A 16 GB",
+    "Codice": 215379,
+    "Costo": 19.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TRASFERIMENTO DATI FINO A 64 GB",
+    "Codice": 215384,
+    "Costo": 29.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TRASFERIMENTO DATI FINO A 128 GB",
+    "Codice": 215385,
+    "Costo": 39.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TRASFERIMENTO DATI FINO A 256 GB",
+    "Codice": 215390,
+    "Costo": 49.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TRASFERIMENTO DATI OLTRE 256 GB",
+    "Codice": 425292,
+    "Costo": 69.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Altro",
+    "Servizio": "MARCA DA BOLLO",
+    "Codice": 993304,
+    "Costo": 2.0
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Altro",
+    "Servizio": "SACCHETTO",
+    "Codice": 667118,
+    "Costo": 0.15
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "LITE (NON VENDERE)",
+    "Codice": 578685,
+    "Costo": 19.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "PRO (NON VENDERE)",
+    "Codice": 578678,
+    "Costo": 24.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "ULTRA",
+    "Codice": 578681,
+    "Costo": 28.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "MATTE",
+    "Codice": 578679,
+    "Costo": 29.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "ANTISPY",
+    "Codice": 578682,
+    "Costo": 32.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "TETRA",
+    "Codice": 578683,
+    "Costo": 34.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "HYBRID",
+    "Codice": 578684,
+    "Costo": 39.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "HYBRID MATT",
+    "Codice": 580107,
+    "Costo": 44.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartphone",
+    "Servizio": "HYBRID MATT ANTISPY",
+    "Codice": 580103,
+    "Costo": 44.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Smartwatch",
+    "Servizio": "PRO 4\"",
+    "Codice": 578676,
+    "Costo": 16.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Tablet",
+    "Servizio": "TAB fino a 11\"",
+    "Codice": 580741,
+    "Costo": 29.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Tablet",
+    "Servizio": "TAB fino a 13\"",
+    "Codice": 580743,
+    "Costo": 34.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Tablet",
+    "Servizio": "TAB fino a 16\"",
+    "Codice": 580745,
+    "Costo": 44.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Tablet",
+    "Servizio": "MATTE fino a 13\"",
+    "Codice": 580747,
+    "Costo": 44.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Altro",
+    "Servizio": "BACKSKIN",
+    "Codice": 346488,
+    "Costo": 24.99
+  },
+  {
+    "Categoria": "Pellicole e protezioni",
+    "Sottocategoria": "Altro",
+    "Servizio": "COVER 3D",
+    "Codice": 563214,
+    "Costo": 16.99
+  },
+  {
+    "Categoria": "Software",
+    "Sottocategoria": "Software",
+    "Servizio": "Office Home 2024",
+    "Codice": 565565,
+    "Costo": 149.99
+  },
+  {
+    "Categoria": "Software",
+    "Sottocategoria": "Software",
+    "Servizio": "Office M365 Personal",
+    "Codice": 565584,
+    "Costo": 99.99
+  },
+  {
+    "Categoria": "Software",
+    "Sottocategoria": "Software",
+    "Servizio": "INST. SOFT.",
+    "Codice": 706449,
+    "Costo": 14.99
+  },
+  {
+    "Categoria": "Software",
+    "Sottocategoria": "Software",
+    "Servizio": "McAfee LiveSafe",
+    "Codice": 446946,
+    "Costo": 19.99
+  },
+  {
+    "Categoria": "Software",
+    "Sottocategoria": "Software",
+    "Servizio": "INST. McAfee",
+    "Codice": 362740,
+    "Costo": 5.99
+  }
+]

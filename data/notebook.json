@@ -1,0 +1,66 @@
+[
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "GALAXY CHROMEBOOK GO",
+    "Memoria": "64 GB",
+    "pollici": "14\"",
+    "Codice_PIM": 396392
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book4 Edge",
+    "Memoria": "512 GB",
+    "pollici": "15.6\"",
+    "Codice_PIM": 552866
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book5",
+    "Memoria": "1000 GB",
+    "pollici": "15.6\"",
+    "Codice_PIM": 456689
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book5 360",
+    "Memoria": "512 GB",
+    "pollici": "15.6\"",
+    "Codice_PIM": 415908
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book6",
+    "Memoria": "512 GB",
+    "pollici": "16\"",
+    "Codice_PIM": 564004
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book6",
+    "Memoria": "512 GB",
+    "pollici": "14\"",
+    "Codice_PIM": 564005
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book6 Pro",
+    "Memoria": "1000 GB",
+    "pollici": "16\"",
+    "Codice_PIM": 564002
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Notebook",
+    "Modello": "Galaxy Book6 Pro",
+    "Memoria": "1000 GB",
+    "pollici": "14\"",
+    "Codice_PIM": 564003
+  }
+]

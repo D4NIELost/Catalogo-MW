@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo MW</title>
+    <link rel="stylesheet" href="styles.css?v=4.3">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#de2427">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📱 Catalogo MW</h1>
+            <span class="version">v4.2</span>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="🔍 Cerca prodotto (modello, marca o codice PIM)">
+            <button id="clearSearch">✖️</button>
+        </div>
+
+        <div id="searchResults" class="search-results hidden"></div>
+
+        <nav class="main-nav">
+            <button id="navPhones" class="nav-btn active">📱 Dispositivi</button>
+            <button id="navServices" class="nav-btn">🔧 Servizi e Software</button>
+        </nav>
+
+        <main id="mainContent">
+            <!-- Dynamic content will be loaded here -->
+        </main>
+
+        <footer class="footer-nav">
+            <button id="backBtn">⬅️ Indietro</button>
+            <button id="homeBtn">🏠 Home</button>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+    <script src="app.js?v=4.4"></script>
+    <script>
+        // Service worker temporarily disabled for testing
+        // if ('serviceWorker' in navigator) {
+        //     navigator.serviceWorker.register('./sw.js').then(registration => {
+        //         console.log('ServiceWorker registration successful');
+        //     }).catch(err => {
+        //         console.log('ServiceWorker registration failed:', err);
+        //     });
+        // }
+    </script>
+</body>
+</html>

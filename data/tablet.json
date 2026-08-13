@@ -1,0 +1,65 @@
+[
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "GALAXY TAB A11 WIFI",
+    "Memoria": "64GB",
+    "Codice_PIM": 577429
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "GALAXY TAB A11+",
+    "Memoria": "128GB",
+    "Codice_PIM": 551789
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "GALAXY TAB A11+",
+    "Memoria": "256GB",
+    "Codice_PIM": 551780
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "GALAXY TAB A11+ 5G",
+    "Memoria": "128 GB",
+    "Codice_PIM": 551794
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S10 FE",
+    "Memoria": "128 GB",
+    "Codice_PIM": 426979
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S10 FE+",
+    "Memoria": "256 GB",
+    "Codice_PIM": 427087
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S10 Lite",
+    "Memoria": "128 GB",
+    "Codice_PIM": 497807
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S11 WiFi 128GB",
+    "Memoria": "128 GB",
+    "Codice_PIM": 497832
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S11 Ultra WiFi",
+    "Memoria": "256 GB",
+    "Codice_PIM": 497818
+  }
+]
