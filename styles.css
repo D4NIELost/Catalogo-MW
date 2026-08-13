@@ -177,6 +177,31 @@ h2 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.brand-button {
+    padding: 10px 15px;
+}
+
+.brand-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.brand-name {
+    font-weight: 600;
+}
+
 .button-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);

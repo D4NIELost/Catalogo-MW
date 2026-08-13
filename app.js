@@ -219,9 +219,17 @@ function renderBrandsView(container) {
         <div class="content-section">
             <h2>Seleziona Marchio</h2>
             <div class="button-grid">
-                ${brands.map(brand => 
-                    `<button class="button-item" onclick="selectBrand('${brand}')">${brand}</button>`
-                ).join('')}
+                ${brands.map(brand => {
+                    const logoPath = `images/brands/${brand}.png`;
+                    return `
+                        <button class="button-item brand-button" onclick="selectBrand('${brand}')">
+                            <div class="brand-content">
+                                <img src="${logoPath}" alt="${brand}" class="brand-logo" onerror="this.style.display='none'">
+                                <span class="brand-name">${brand}</span>
+                            </div>
+                        </button>
+                    `;
+                }).join('')}
             </div>
         </div>
     `;
