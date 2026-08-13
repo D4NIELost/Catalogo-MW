@@ -541,7 +541,7 @@ function renderServicesView(container) {
             <div class="button-grid">
                 ${services.map(service => 
                     `<button class="button-item" onclick="selectService('${service.Servizio}')">
-                        ${service.Servizio}
+                        ${service.Servizio} - €${service.Costo}
                     </button>`
                 ).join('')}
             </div>
