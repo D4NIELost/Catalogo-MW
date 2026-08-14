@@ -43,6 +43,15 @@ header h1 {
     font-weight: 600;
 }
 
+.refresh-btn {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.refresh-btn:hover {
+    opacity: 0.8;
+}
+
 .header-right {
     display: flex;
     align-items: center;

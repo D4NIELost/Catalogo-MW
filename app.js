@@ -926,6 +926,11 @@ function selectServiceSearchResult(serviceName) {
 document.addEventListener('DOMContentLoaded', () => {
     loadDatabases();
     
+    // Hard refresh button
+    document.getElementById('refreshBtn').addEventListener('click', () => {
+        location.reload(true);
+    });
+    
     // Navigation buttons
     document.getElementById('navPhones').addEventListener('click', () => {
         state.currentSection = 'phones';
