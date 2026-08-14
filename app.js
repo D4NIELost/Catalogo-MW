@@ -173,9 +173,29 @@ async function loadDatabases() {
 // Get a unique key for the current view state
 function getViewKey() {
     if (state.currentSection === 'phones') {
-        return `phones_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}_${state.selectedMemory}`;
+        if (state.selectedVariant) {
+            return `phones_variant_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}_${state.selectedMemory}_${state.selectedVariant.Colore}`;
+        } else if (state.selectedMemory) {
+            return `phones_colors_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}_${state.selectedMemory}`;
+        } else if (state.selectedModel) {
+            return `phones_memories_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}`;
+        } else if (state.selectedCategory) {
+            return `phones_models_${state.selectedBrand}_${state.selectedCategory}`;
+        } else if (state.selectedBrand) {
+            return `phones_categories_${state.selectedBrand}`;
+        } else {
+            return `phones_brands`;
+        }
     } else if (state.currentSection === 'services') {
-        return `services_${state.servicesCategory}_${state.servicesSubcategory}`;
+        if (state.selectedService) {
+            return `services_service_${state.servicesCategory}_${state.servicesSubcategory}_${state.selectedService}`;
+        } else if (state.servicesSubcategory) {
+            return `services_services_${state.servicesCategory}_${state.servicesSubcategory}`;
+        } else if (state.servicesCategory) {
+            return `services_subcategories_${state.servicesCategory}`;
+        } else {
+            return `services_categories`;
+        }
     }
     return state.currentSection;
 }
@@ -210,8 +230,10 @@ function renderMainContent() {
         renderServicesSection(mainContent);
     }
 
-    // Restore scroll position after rendering
-    setTimeout(restoreScrollPosition, 0);
+    // Restore scroll position after rendering - use requestAnimationFrame to ensure DOM is ready
+    requestAnimationFrame(() => {
+        requestAnimationFrame(restoreScrollPosition);
+    });
 }
 
 // Render phones section
@@ -640,32 +662,32 @@ function renderServiceView(container) {
 
 // Selection functions
 function selectBrand(brand) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.selectedBrand = brand;
     renderMainContent();
 }
 
 function selectCategory(category) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.selectedCategory = category;
     renderMainContent();
 }
 
 function selectModel(model) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.selectedModel = model;
     renderMainContent();
 }
 
 function selectMemory(memory) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.selectedMemory = memory;
     state.modelHasSingleMemory = false;
     renderMainContent();
 }
 
 function selectColor(color) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     const category = state.selectedCategory;
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
@@ -695,19 +717,19 @@ function selectColor(color) {
 }
 
 function selectServicesCategory(category) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.servicesCategory = category;
     renderMainContent();
 }
 
 function selectServicesSubcategory(subcategory) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.servicesSubcategory = subcategory;
     renderMainContent();
 }
 
 function selectService(service) {
-    saveScrollPosition();
+    saveScrollPosition(); // Save current view position before navigating
     state.selectedService = service;
     renderMainContent();
 }
@@ -755,7 +777,7 @@ function goBackServices() {
                 .filter(s => s.Categoria === category)
                 .map(s => s.Sottocategoria)
         )];
-        
+
         if (subcategories.length === 1) {
             state.servicesSubcategory = null;
             state.servicesCategory = null;
@@ -919,7 +941,6 @@ function searchProducts(query) {
 }
 
 function selectSearchResult(brand, category, model, pim) {
-    saveScrollPosition();
     // Switch to phones section if not already there
     if (state.currentSection !== 'phones') {
         state.currentSection = 'phones';
@@ -955,7 +976,6 @@ function selectSearchResult(brand, category, model, pim) {
 }
 
 function selectServiceSearchResult(serviceName) {
-    saveScrollPosition();
     state.currentSection = 'services';
     state.selectedService = serviceName;
 
@@ -970,10 +990,10 @@ function selectServiceSearchResult(serviceName) {
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadDatabases();
-    
+
     // Navigation buttons
     document.getElementById('navPhones').addEventListener('click', () => {
-        saveScrollPosition();
+        saveScrollPosition(); // Save current view position before changing section
         state.currentSection = 'phones';
         document.getElementById('navPhones').classList.add('active');
         document.getElementById('navServices').classList.remove('active');
@@ -981,7 +1001,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('navServices').addEventListener('click', () => {
-        saveScrollPosition();
+        saveScrollPosition(); // Save current view position before changing section
         state.currentSection = 'services';
         document.getElementById('navServices').classList.add('active');
         document.getElementById('navPhones').classList.remove('active');
