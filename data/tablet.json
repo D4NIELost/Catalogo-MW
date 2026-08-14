@@ -37,6 +37,13 @@
   {
     "Marca": "Samsung",
     "Tipo": "Tablet",
+    "Modello": "Galaxy Tab S10 FE",
+    "Memoria": "256 GB",
+    "Codice_PIM": 426987
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Tablet",
     "Modello": "Galaxy Tab S10 FE+",
     "Memoria": "256 GB",
     "Codice_PIM": 427087

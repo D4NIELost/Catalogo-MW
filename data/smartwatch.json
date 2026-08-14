@@ -124,16 +124,16 @@
     "Tipo": "Smartwatch",
     "Modello": "Redmi Watch 5 Active",
     "mm": "n/n",
-    "Colore": "Midnight Black",
-    "Codice_PIM": 403291
+    "Colore": "Matte Silver",
+    "Codice_PIM": 403306
   },
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartwatch",
     "Modello": "Redmi Watch 5 Active",
     "mm": "n/n",
-    "Colore": "Matte Silver",
-    "Codice_PIM": 403306
+    "Colore": "Midnight Black",
+    "Codice_PIM": 403291
   },
   {
     "Marca": "Xiaomi",
@@ -154,22 +154,6 @@
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartwatch",
-    "Modello": "Watch 5",
-    "mm": "n/n",
-    "Colore": "Black",
-    "Codice_PIM": 566396
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartwatch",
-    "Modello": "Watch 5",
-    "mm": "n/n",
-    "Colore": "Juniper Green",
-    "Codice_PIM": 566402
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartwatch",
     "Modello": "Redmi Watch 6",
     "mm": "n/n",
     "Colore": "Obsidian Black",
@@ -186,10 +170,34 @@
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartwatch",
-    "Modello": "Watch S4",
-    "mm": "41 mm",
-    "Colore": "Silver",
-    "Codice_PIM": 420562
+    "Modello": "Redmi Watch 6 NFC",
+    "mm": "n/n",
+    "Colore": "Obsidian Black",
+    "Codice_PIM": 583176
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartwatch",
+    "Modello": "Redmi Watch 6 NFC",
+    "mm": "n/n",
+    "Colore": "Silver Gray",
+    "Codice_PIM": 583175
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartwatch",
+    "Modello": "Watch 5",
+    "mm": "n/n",
+    "Colore": "Black",
+    "Codice_PIM": 566396
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartwatch",
+    "Modello": "Watch 5",
+    "mm": "n/n",
+    "Colore": "Juniper Green",
+    "Codice_PIM": 566402
   },
   {
     "Marca": "Xiaomi",
@@ -212,8 +220,8 @@
     "Tipo": "Smartwatch",
     "Modello": "Watch S4",
     "mm": "41 mm",
-    "Colore": "White (Leather Strap)",
-    "Codice_PIM": 499165
+    "Colore": "Silver",
+    "Codice_PIM": 420562
   },
   {
     "Marca": "Xiaomi",
@@ -226,10 +234,26 @@
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartwatch",
+    "Modello": "Watch S4",
+    "mm": "41 mm",
+    "Colore": "White (Leather Strap)",
+    "Codice_PIM": 499165
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartwatch",
     "Modello": "Watch S5",
     "mm": "46 mm",
     "Colore": "Black",
     "Codice_PIM": 583166
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartwatch",
+    "Modello": "Watch S5",
+    "mm": "46 mm",
+    "Colore": "Blue",
+    "Codice_PIM": 583172
   },
   {
     "Marca": "Xiaomi",

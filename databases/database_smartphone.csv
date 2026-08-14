@@ -93,14 +93,14 @@ Samsung,Smartphone,Galaxy Z Fold8 Ultra,1 TB,Cream,593079
 Samsung,Smartphone,Galaxy Z Fold8 Ultra,1 TB,Graphite,593082
 Samsung,Smartphone,Galaxy Z Fold8 Ultra,1 TB,Violet Shadow,593087
 
-OPPO,Smartphone,A6,256 GB,Black,561869
 OPPO,Smartphone,A6,256 GB,Aurora Gold,561880
-OPPO,Smartphone,A6 5G,256 GB,Black,561882
+OPPO,Smartphone,A6,256 GB,Black,561869
 OPPO,Smartphone,A6 5G,256 GB,Aurora Gold,561884
-OPPO,Smartphone,A6k,256 GB,Crystal Blue,561860
+OPPO,Smartphone,A6 5G,256 GB,Black,561882
 OPPO,Smartphone,A6k,256 GB,Crystal Black,561868
-OPPO,Smartphone,A6x,128 GB,Ice Blue,561534
+OPPO,Smartphone,A6k,256 GB,Crystal Blue,561860
 OPPO,Smartphone,A6x,128 GB,Black Purple,561530
+OPPO,Smartphone,A6x,128 GB,Ice Blue,561534
 OPPO,Smartphone,A6 Pro 5G,256 GB,White,530109
 OPPO,Smartphone,Reno15 5G,512 GB,Aurora White,564912
 OPPO,Smartphone,Reno15 5G,512 GB,Twilight Black,564896
@@ -110,12 +110,12 @@ OPPO,Smartphone,Reno15 FS 5G,512 GB,Aurora Blue,564920
 OPPO,Smartphone,Reno15 FS 5G,512 GB,Twilight Black,564919
 OPPO,Smartphone,Reno15 Pro 5G,512 GB,Aurora Blue,564892
 OPPO,Smartphone,Reno15 Pro 5G,512 GB,Dusk Black,564894
-OPPO,Smartphone,Reno16 5G,512 GB,Black,588833
-OPPO,Smartphone,Reno16 5G,512 GB,White,588747
-OPPO,Smartphone,Reno16 FS 5G,512 GB,Black,588834
-OPPO,Smartphone,Reno16 FS 5G,512 GB,White,588759
-OPPO,Smartphone,Reno16 Pro 5G,512 GB,Black,588831
-OPPO,Smartphone,Reno16 Pro 5G,512 GB,White,588743
+OPPO,Smartphone,Reno16 5G Bundle,512 GB,Black,588833
+OPPO,Smartphone,Reno16 5G Bundle,512 GB,White,588747
+OPPO,Smartphone,Reno16 FS 5G Bundle,512 GB,Black,588834
+OPPO,Smartphone,Reno16 FS 5G Bundle,512 GB,White,588759
+OPPO,Smartphone,Reno16 Pro 5G Bundle,512 GB,Black,588831
+OPPO,Smartphone,Reno16 Pro 5G Bundle,512 GB,White,588743
 OPPO,Smartphone,Find X9 Pro 5G,512 GB,Titanium Charcoal,548102
 OPPO,Smartphone,Find X9 Ultra 5G,512 GB,Canyon Orange,580384
 OPPO,Smartphone,Find X9 Ultra 5G,512 GB,Tundra Umber,580383
@@ -240,16 +240,45 @@ Motorola,Smartphone,Razr 70,8+256 GB,PANTONE Sporting Green,581409
 Motorola,Smartphone,razr 70 plus,12+512GB,PANTONE Mountain View,582408
 Motorola,Smartphone,Razr Fold,16+512GB,PANTONE Blackened Blue,583137
 Motorola,Smartphone,Razr Fold,16+512GB,PANTONE Lily White,583136
-Google,Smartphone,Pixel 10,128 GB,Nero ossidiana,498198
-Google,Smartphone,Pixel 10,256 GB,Nero ossidiana,498203
-Google,Smartphone,Pixel 10,128 GB,Viola glicine,498189
+
 Google,Smartphone,Pixel 10,128 GB,Blu indaco,498197
+Google,Smartphone,Pixel 10,128 GB,Nero ossidiana,498198
 Google,Smartphone,Pixel 10,128 GB,Verde cedro,498193
+Google,Smartphone,Pixel 10,128 GB,Viola glicine,498189
+Google,Smartphone,Pixel 10,256 GB,Nero ossidiana,498203
+Google,Smartphone,Pixel 10a,128 GB,Grigio nebbia,565938
 Google,Smartphone,Pixel 10a,128 GB,Nero ossidiana,565937
 Google,Smartphone,Pixel 10a,128 GB,Viola lavanda,565981
-Google,Smartphone,Pixel 10a,128 GB,Grigio nebbia,565938
-Google,Smartphone,Pixel 10a,256 GB,Viola lavanda,565991
 Google,Smartphone,Pixel 10a,256 GB,Grigio nebbia,565990
+Google,Smartphone,Pixel 10a,256 GB,Nero ossidiana,565983
+Google,Smartphone,Pixel 10a,256 GB,Rosso lampone,565992
+Google,Smartphone,Pixel 10a,256 GB,Viola lavanda,565991
+Google,Smartphone,Pixel 11,256 GB,Nero ossidiana,596605
+Google,Smartphone,Pixel 11,256 GB,Rosa ibisco,596698
+Google,Smartphone,Pixel 11,256 GB,Verde pistacchio,596683
+Google,Smartphone,Pixel 11,256 GB,Viola glicine,596676
+Google,Smartphone,Pixel 11,512 GB,Nero ossidiana,596699
+Google,Smartphone,Pixel 11,512 GB,Rosa ibisco,596707
+Google,Smartphone,Pixel 11,512 GB,Verde pistacchio,596704
+Google,Smartphone,Pixel 11,512 GB,Viola glicine,596703
+Google,Smartphone,Pixel 11 PRO,256 GB,Grigio nebbia,596725
+Google,Smartphone,Pixel 11 PRO,256 GB,Nero ossidiana,596708
+Google,Smartphone,Pixel 11 PRO,256 GB,Rosa opaco,596730
+Google,Smartphone,Pixel 11 PRO,256 GB,Verde oliva,596729
+Google,Smartphone,Pixel 11 PRO,512 GB,Grigio nebbia,596732
+Google,Smartphone,Pixel 11 PRO,512 GB,Nero ossidiana,596731
+Google,Smartphone,Pixel 11 PRO,512 GB,Rosa opaco,596734
+Google,Smartphone,Pixel 11 PRO,512 GB,Verde oliva,596733
+Google,Smartphone,Pixel 11 PRO,1 TB,Nero ossidiana,596735
+Google,Smartphone,Pixel 11 PRO XL,256 GB,Grigio nebbia,596845
+Google,Smartphone,Pixel 11 PRO XL,256 GB,Nero ossidiana,596807
+Google,Smartphone,Pixel 11 PRO XL,256 GB,Rosa opaco,596874
+Google,Smartphone,Pixel 11 PRO XL,256 GB,Verde oliva,596857
+Google,Smartphone,Pixel 11 PRO XL,512 GB,Grigio nebbia,596878
+Google,Smartphone,Pixel 11 PRO XL,512 GB,Nero ossidiana,596877
+Google,Smartphone,Pixel 11 PRO XL,512 GB,Rosa opaco,596897
+Google,Smartphone,Pixel 11 PRO XL,512 GB,Verde oliva,596896
+Google,Smartphone,Pixel 11 PRO XL,1 TB,Nero ossidiana,596898
 
 ZTE,Smartphone,BLADE A35,64 GB,Black,454698
 ZTE,Smartphone,BLADE A35,64 GB,GREEN,588166

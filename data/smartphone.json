@@ -748,24 +748,16 @@
     "Tipo": "Smartphone",
     "Modello": "A6",
     "Memoria": "256 GB",
-    "Colore": "Black",
-    "Codice_PIM": 561869
-  },
-  {
-    "Marca": "OPPO",
-    "Tipo": "Smartphone",
-    "Modello": "A6",
-    "Memoria": "256 GB",
     "Colore": "Aurora Gold",
     "Codice_PIM": 561880
   },
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "A6 5G",
+    "Modello": "A6",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": 561882
+    "Codice_PIM": 561869
   },
   {
     "Marca": "OPPO",
@@ -778,10 +770,10 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "A6k",
+    "Modello": "A6 5G",
     "Memoria": "256 GB",
-    "Colore": "Crystal Blue",
-    "Codice_PIM": 561860
+    "Colore": "Black",
+    "Codice_PIM": 561882
   },
   {
     "Marca": "OPPO",
@@ -794,10 +786,10 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "A6x",
-    "Memoria": "128 GB",
-    "Colore": "Ice Blue",
-    "Codice_PIM": 561534
+    "Modello": "A6k",
+    "Memoria": "256 GB",
+    "Colore": "Crystal Blue",
+    "Codice_PIM": 561860
   },
   {
     "Marca": "OPPO",
@@ -806,6 +798,14 @@
     "Memoria": "128 GB",
     "Colore": "Black Purple",
     "Codice_PIM": 561530
+  },
+  {
+    "Marca": "OPPO",
+    "Tipo": "Smartphone",
+    "Modello": "A6x",
+    "Memoria": "128 GB",
+    "Colore": "Ice Blue",
+    "Codice_PIM": 561534
   },
   {
     "Marca": "OPPO",
@@ -882,7 +882,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 5G",
+    "Modello": "Reno16 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "Black",
     "Codice_PIM": 588833
@@ -890,7 +890,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 5G",
+    "Modello": "Reno16 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "White",
     "Codice_PIM": 588747
@@ -898,7 +898,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 FS 5G",
+    "Modello": "Reno16 FS 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "Black",
     "Codice_PIM": 588834
@@ -906,7 +906,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 FS 5G",
+    "Modello": "Reno16 FS 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "White",
     "Codice_PIM": 588759
@@ -914,7 +914,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 Pro 5G",
+    "Modello": "Reno16 Pro 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "Black",
     "Codice_PIM": 588831
@@ -922,7 +922,7 @@
   {
     "Marca": "OPPO",
     "Tipo": "Smartphone",
-    "Modello": "Reno16 Pro 5G",
+    "Modello": "Reno16 Pro 5G Bundle",
     "Memoria": "512 GB",
     "Colore": "White",
     "Codice_PIM": 588743
@@ -1900,6 +1900,14 @@
     "Tipo": "Smartphone",
     "Modello": "Pixel 10",
     "Memoria": "128 GB",
+    "Colore": "Blu indaco",
+    "Codice_PIM": 498197
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 10",
+    "Memoria": "128 GB",
     "Colore": "Nero ossidiana",
     "Codice_PIM": 498198
   },
@@ -1907,9 +1915,9 @@
     "Marca": "Google",
     "Tipo": "Smartphone",
     "Modello": "Pixel 10",
-    "Memoria": "256 GB",
-    "Colore": "Nero ossidiana",
-    "Codice_PIM": 498203
+    "Memoria": "128 GB",
+    "Colore": "Verde cedro",
+    "Codice_PIM": 498193
   },
   {
     "Marca": "Google",
@@ -1923,17 +1931,17 @@
     "Marca": "Google",
     "Tipo": "Smartphone",
     "Modello": "Pixel 10",
-    "Memoria": "128 GB",
-    "Colore": "Blu indaco",
-    "Codice_PIM": 498197
+    "Memoria": "256 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 498203
   },
   {
     "Marca": "Google",
     "Tipo": "Smartphone",
-    "Modello": "Pixel 10",
+    "Modello": "Pixel 10a",
     "Memoria": "128 GB",
-    "Colore": "Verde cedro",
-    "Codice_PIM": 498193
+    "Colore": "Grigio nebbia",
+    "Codice_PIM": 565938
   },
   {
     "Marca": "Google",
@@ -1955,9 +1963,25 @@
     "Marca": "Google",
     "Tipo": "Smartphone",
     "Modello": "Pixel 10a",
-    "Memoria": "128 GB",
+    "Memoria": "256 GB",
     "Colore": "Grigio nebbia",
-    "Codice_PIM": 565938
+    "Codice_PIM": 565990
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 10a",
+    "Memoria": "256 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 565983
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 10a",
+    "Memoria": "256 GB",
+    "Colore": "Rosso lampone",
+    "Codice_PIM": 565992
   },
   {
     "Marca": "Google",
@@ -1970,10 +1994,210 @@
   {
     "Marca": "Google",
     "Tipo": "Smartphone",
-    "Modello": "Pixel 10a",
+    "Modello": "Pixel 11",
+    "Memoria": "256 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596605
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "256 GB",
+    "Colore": "Rosa ibisco",
+    "Codice_PIM": 596698
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "256 GB",
+    "Colore": "Verde pistacchio",
+    "Codice_PIM": 596683
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "256 GB",
+    "Colore": "Viola glicine",
+    "Codice_PIM": 596676
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "512 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596699
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "512 GB",
+    "Colore": "Rosa ibisco",
+    "Codice_PIM": 596707
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "512 GB",
+    "Colore": "Verde pistacchio",
+    "Codice_PIM": 596704
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11",
+    "Memoria": "512 GB",
+    "Colore": "Viola glicine",
+    "Codice_PIM": 596703
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
     "Memoria": "256 GB",
     "Colore": "Grigio nebbia",
-    "Codice_PIM": 565990
+    "Codice_PIM": 596725
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "256 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596708
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "256 GB",
+    "Colore": "Rosa opaco",
+    "Codice_PIM": 596730
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "256 GB",
+    "Colore": "Verde oliva",
+    "Codice_PIM": 596729
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "512 GB",
+    "Colore": "Grigio nebbia",
+    "Codice_PIM": 596732
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "512 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596731
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "512 GB",
+    "Colore": "Rosa opaco",
+    "Codice_PIM": 596734
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "512 GB",
+    "Colore": "Verde oliva",
+    "Codice_PIM": 596733
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO",
+    "Memoria": "1 TB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596735
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "256 GB",
+    "Colore": "Grigio nebbia",
+    "Codice_PIM": 596845
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "256 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596807
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "256 GB",
+    "Colore": "Rosa opaco",
+    "Codice_PIM": 596874
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "256 GB",
+    "Colore": "Verde oliva",
+    "Codice_PIM": 596857
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "512 GB",
+    "Colore": "Grigio nebbia",
+    "Codice_PIM": 596878
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "512 GB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596877
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "512 GB",
+    "Colore": "Rosa opaco",
+    "Codice_PIM": 596897
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "512 GB",
+    "Colore": "Verde oliva",
+    "Codice_PIM": 596896
+  },
+  {
+    "Marca": "Google",
+    "Tipo": "Smartphone",
+    "Modello": "Pixel 11 PRO XL",
+    "Memoria": "1 TB",
+    "Colore": "Nero ossidiana",
+    "Codice_PIM": 596898
   },
   {
     "Marca": "ZTE",

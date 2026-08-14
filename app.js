@@ -110,7 +110,7 @@ const colorMap = {
     'grigio nebbia': '#E0E6E9',
     'rosso lampone': '#E30B5D',
     'verde pistacchio': '#93C572',
-    'rosa opaco': '#E8A0B4',
+    'rosa opaco': '#F8A591',
     'verde oliva': '#556B2F',
     'glacier blue': '#87CEEB',
     'titano': '#A9A9A9',
