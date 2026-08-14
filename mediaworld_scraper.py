@@ -297,12 +297,30 @@ def scrape_category_products(brand, category):
         # Click "Show more" button until no more products
         max_clicks = 40
         click_count = 0
+        previous_product_count = 0
+        no_change_count = 0
         
         while click_count < max_clicks:
             try:
                 # Scroll to bottom to force rendering
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(2)
+                
+                # Count current products before clicking
+                current_soup = BeautifulSoup(driver.page_source, "html.parser")
+                current_product_count = len([a for a in current_soup.find_all('a', href=True) if '/it/product' in a['href']])
+                
+                print(f"Debug: Current product count: {current_product_count}")
+                
+                # Check if product count hasn't changed (indicates end of catalog)
+                if current_product_count == previous_product_count and click_count > 0:
+                    no_change_count += 1
+                    if no_change_count >= 2:  # Allow 2 consecutive no-change attempts
+                        print("Nessun nuovo prodotto caricato (fine catalogo raggiunta).")
+                        break
+                else:
+                    no_change_count = 0
+                    previous_product_count = current_product_count
                 
                 show_more_button = None
                 

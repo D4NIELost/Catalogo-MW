@@ -1,19 +1,11 @@
 [
   {
-    "Marca": "Marca",
-    "Tipo": "Tipo",
-    "Modello": "Modello",
-    "Memoria": "Memoria",
-    "Colore": "Colore",
-    "Codice_PIM": "Codice_PIM"
-  },
-  {
     "Marca": "Samsung",
     "Tipo": "Smartphone",
     "Modello": "Galaxy A16",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "411110"
+    "Codice_PIM": 411110
   },
   {
     "Marca": "Samsung",
@@ -21,7 +13,7 @@
     "Modello": "Galaxy A16",
     "Memoria": "128 GB",
     "Colore": "Black Blue",
-    "Codice_PIM": "431292"
+    "Codice_PIM": 431292
   },
   {
     "Marca": "Samsung",
@@ -29,7 +21,7 @@
     "Modello": "Galaxy A16",
     "Memoria": "128 GB",
     "Colore": "Gray",
-    "Codice_PIM": "411118"
+    "Codice_PIM": 411118
   },
   {
     "Marca": "Samsung",
@@ -37,7 +29,7 @@
     "Modello": "Galaxy A16",
     "Memoria": "128 GB",
     "Colore": "Light Green",
-    "Codice_PIM": "411112"
+    "Codice_PIM": 411112
   },
   {
     "Marca": "Samsung",
@@ -45,7 +37,7 @@
     "Modello": "Galaxy A17 5G",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "498231"
+    "Codice_PIM": 498231
   },
   {
     "Marca": "Samsung",
@@ -53,7 +45,7 @@
     "Modello": "Galaxy A17 5G",
     "Memoria": "128 GB",
     "Colore": "Blu",
-    "Codice_PIM": "498240"
+    "Codice_PIM": 498240
   },
   {
     "Marca": "Samsung",
@@ -61,7 +53,7 @@
     "Modello": "Galaxy A17 5G",
     "Memoria": "128 GB",
     "Colore": "Gray",
-    "Codice_PIM": "498237"
+    "Codice_PIM": 498237
   },
   {
     "Marca": "Samsung",
@@ -69,7 +61,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "586061"
+    "Codice_PIM": 586061
   },
   {
     "Marca": "Samsung",
@@ -77,7 +69,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "128 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "586074"
+    "Codice_PIM": 586074
   },
   {
     "Marca": "Samsung",
@@ -85,7 +77,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "128 GB",
     "Colore": "Pink",
-    "Codice_PIM": "586072"
+    "Codice_PIM": 586072
   },
   {
     "Marca": "Samsung",
@@ -93,7 +85,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "586071"
+    "Codice_PIM": 586071
   },
   {
     "Marca": "Samsung",
@@ -101,7 +93,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "256 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "586075"
+    "Codice_PIM": 586075
   },
   {
     "Marca": "Samsung",
@@ -109,7 +101,7 @@
     "Modello": "Galaxy A27 5G",
     "Memoria": "256 GB",
     "Colore": "PINK",
-    "Codice_PIM": "586073"
+    "Codice_PIM": 586073
   },
   {
     "Marca": "Samsung",
@@ -117,7 +109,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Charcoal",
-    "Codice_PIM": "573351"
+    "Codice_PIM": 573351
   },
   {
     "Marca": "Samsung",
@@ -125,7 +117,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Graygreen",
-    "Codice_PIM": "573361"
+    "Codice_PIM": 573361
   },
   {
     "Marca": "Samsung",
@@ -133,7 +125,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Lavender",
-    "Codice_PIM": "573364"
+    "Codice_PIM": 573364
   },
   {
     "Marca": "Samsung",
@@ -141,7 +133,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome White",
-    "Codice_PIM": "573369"
+    "Codice_PIM": 573369
   },
   {
     "Marca": "Samsung",
@@ -149,7 +141,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Charcoal",
-    "Codice_PIM": "573353"
+    "Codice_PIM": 573353
   },
   {
     "Marca": "Samsung",
@@ -157,7 +149,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Graygreen",
-    "Codice_PIM": "573363"
+    "Codice_PIM": 573363
   },
   {
     "Marca": "Samsung",
@@ -165,7 +157,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Lavender",
-    "Codice_PIM": "573368"
+    "Codice_PIM": 573368
   },
   {
     "Marca": "Samsung",
@@ -173,7 +165,7 @@
     "Modello": "Galaxy A37 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome White",
-    "Codice_PIM": "573370"
+    "Codice_PIM": 573370
   },
   {
     "Marca": "Samsung",
@@ -181,7 +173,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Gray",
-    "Codice_PIM": "573321"
+    "Codice_PIM": 573321
   },
   {
     "Marca": "Samsung",
@@ -189,7 +181,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Icyblue",
-    "Codice_PIM": "573343"
+    "Codice_PIM": 573343
   },
   {
     "Marca": "Samsung",
@@ -197,7 +189,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Lilac",
-    "Codice_PIM": "573348"
+    "Codice_PIM": 573348
   },
   {
     "Marca": "Samsung",
@@ -205,7 +197,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "128 GB",
     "Colore": "Awesome Navy",
-    "Codice_PIM": "573319"
+    "Codice_PIM": 573319
   },
   {
     "Marca": "Samsung",
@@ -213,7 +205,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Gray",
-    "Codice_PIM": "573323"
+    "Codice_PIM": 573323
   },
   {
     "Marca": "Samsung",
@@ -221,7 +213,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Icyblue",
-    "Codice_PIM": "573347"
+    "Codice_PIM": 573347
   },
   {
     "Marca": "Samsung",
@@ -229,7 +221,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Lilac",
-    "Codice_PIM": "573349"
+    "Codice_PIM": 573349
   },
   {
     "Marca": "Samsung",
@@ -237,7 +229,7 @@
     "Modello": "Galaxy A57 5G",
     "Memoria": "256 GB",
     "Colore": "Awesome Navy",
-    "Codice_PIM": "573320"
+    "Codice_PIM": 573320
   },
   {
     "Marca": "Samsung",
@@ -245,7 +237,7 @@
     "Modello": "Galaxy S25 FE",
     "Memoria": "256 GB",
     "Colore": "Jetblack",
-    "Codice_PIM": "583946"
+    "Codice_PIM": 583946
   },
   {
     "Marca": "Samsung",
@@ -253,7 +245,7 @@
     "Modello": "Galaxy S25 FE",
     "Memoria": "256 GB",
     "Colore": "Navy",
-    "Codice_PIM": "583947"
+    "Codice_PIM": 583947
   },
   {
     "Marca": "Samsung",
@@ -261,7 +253,7 @@
     "Modello": "Galaxy S25",
     "Memoria": "256 GB",
     "Colore": "Black Blue",
-    "Codice_PIM": "527268"
+    "Codice_PIM": 527268
   },
   {
     "Marca": "Samsung",
@@ -269,7 +261,7 @@
     "Modello": "Galaxy S25",
     "Memoria": "256 GB",
     "Colore": "Icyblue",
-    "Codice_PIM": "412439"
+    "Codice_PIM": 412439
   },
   {
     "Marca": "Samsung",
@@ -277,7 +269,7 @@
     "Modello": "Galaxy S25",
     "Memoria": "256 GB",
     "Colore": "Mint",
-    "Codice_PIM": "412442"
+    "Codice_PIM": 412442
   },
   {
     "Marca": "Samsung",
@@ -285,7 +277,7 @@
     "Modello": "Galaxy S25",
     "Memoria": "256 GB",
     "Colore": "Navy",
-    "Codice_PIM": "412446"
+    "Codice_PIM": 412446
   },
   {
     "Marca": "Samsung",
@@ -293,7 +285,7 @@
     "Modello": "Galaxy S25",
     "Memoria": "256 GB",
     "Colore": "Silver Shadow",
-    "Codice_PIM": "412449"
+    "Codice_PIM": 412449
   },
   {
     "Marca": "Samsung",
@@ -301,7 +293,7 @@
     "Modello": "Galaxy S25 Ultra",
     "Memoria": "256 GB",
     "Colore": "Titanium Black",
-    "Codice_PIM": "412318"
+    "Codice_PIM": 412318
   },
   {
     "Marca": "Samsung",
@@ -309,7 +301,7 @@
     "Modello": "Galaxy S25 Ultra",
     "Memoria": "256 GB",
     "Colore": "Titanium Gray",
-    "Codice_PIM": "412412"
+    "Codice_PIM": 412412
   },
   {
     "Marca": "Samsung",
@@ -317,7 +309,7 @@
     "Modello": "Galaxy S25 Ultra",
     "Memoria": "256 GB",
     "Colore": "Titanium Silverblue",
-    "Codice_PIM": "412393"
+    "Codice_PIM": 412393
   },
   {
     "Marca": "Samsung",
@@ -325,7 +317,7 @@
     "Modello": "Galaxy S25 Ultra",
     "Memoria": "256 GB",
     "Colore": "Titanium Whitesilver",
-    "Codice_PIM": "412422"
+    "Codice_PIM": 412422
   },
   {
     "Marca": "Samsung",
@@ -333,7 +325,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "564055"
+    "Codice_PIM": 564055
   },
   {
     "Marca": "Samsung",
@@ -341,7 +333,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "256 GB",
     "Colore": "Cobalt Violet",
-    "Codice_PIM": "564051"
+    "Codice_PIM": 564051
   },
   {
     "Marca": "Samsung",
@@ -349,7 +341,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "256 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564053"
+    "Codice_PIM": 564053
   },
   {
     "Marca": "Samsung",
@@ -357,7 +349,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "256 GB",
     "Colore": "White",
-    "Codice_PIM": "564048"
+    "Codice_PIM": 564048
   },
   {
     "Marca": "Samsung",
@@ -365,7 +357,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "564057"
+    "Codice_PIM": 564057
   },
   {
     "Marca": "Samsung",
@@ -373,7 +365,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "512 GB",
     "Colore": "Cobalt Violet",
-    "Codice_PIM": "564052"
+    "Codice_PIM": 564052
   },
   {
     "Marca": "Samsung",
@@ -381,7 +373,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "512 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564054"
+    "Codice_PIM": 564054
   },
   {
     "Marca": "Samsung",
@@ -389,7 +381,7 @@
     "Modello": "Galaxy S26",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "564050"
+    "Codice_PIM": 564050
   },
   {
     "Marca": "Samsung",
@@ -397,7 +389,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "564046"
+    "Codice_PIM": 564046
   },
   {
     "Marca": "Samsung",
@@ -405,7 +397,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "256 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564044"
+    "Codice_PIM": 564044
   },
   {
     "Marca": "Samsung",
@@ -413,7 +405,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "564047"
+    "Codice_PIM": 564047
   },
   {
     "Marca": "Samsung",
@@ -421,7 +413,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "512 GB",
     "Colore": "Cobalt Violet",
-    "Codice_PIM": "564043"
+    "Codice_PIM": 564043
   },
   {
     "Marca": "Samsung",
@@ -429,7 +421,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "512 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564045"
+    "Codice_PIM": 564045
   },
   {
     "Marca": "Samsung",
@@ -437,7 +429,7 @@
     "Modello": "Galaxy S26+",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "564041"
+    "Codice_PIM": 564041
   },
   {
     "Marca": "Samsung",
@@ -445,7 +437,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "564035"
+    "Codice_PIM": 564035
   },
   {
     "Marca": "Samsung",
@@ -453,7 +445,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "256 GB",
     "Colore": "Cobalt Violet",
-    "Codice_PIM": "564023"
+    "Codice_PIM": 564023
   },
   {
     "Marca": "Samsung",
@@ -461,7 +453,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "256 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564027"
+    "Codice_PIM": 564027
   },
   {
     "Marca": "Samsung",
@@ -469,7 +461,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "256 GB",
     "Colore": "White",
-    "Codice_PIM": "564017"
+    "Codice_PIM": 564017
   },
   {
     "Marca": "Samsung",
@@ -477,7 +469,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "564036"
+    "Codice_PIM": 564036
   },
   {
     "Marca": "Samsung",
@@ -485,7 +477,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "512 GB",
     "Colore": "Cobalt Violet",
-    "Codice_PIM": "564025"
+    "Codice_PIM": 564025
   },
   {
     "Marca": "Samsung",
@@ -493,7 +485,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "512 GB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564033"
+    "Codice_PIM": 564033
   },
   {
     "Marca": "Samsung",
@@ -501,7 +493,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "564018"
+    "Codice_PIM": 564018
   },
   {
     "Marca": "Samsung",
@@ -509,7 +501,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "1 TB",
     "Colore": "Black",
-    "Codice_PIM": "564038"
+    "Codice_PIM": 564038
   },
   {
     "Marca": "Samsung",
@@ -517,7 +509,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "1 TB",
     "Colore": "PURPLE",
-    "Codice_PIM": "564026"
+    "Codice_PIM": 564026
   },
   {
     "Marca": "Samsung",
@@ -525,7 +517,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "1 TB",
     "Colore": "Sky Blue",
-    "Codice_PIM": "564034"
+    "Codice_PIM": 564034
   },
   {
     "Marca": "Samsung",
@@ -533,7 +525,7 @@
     "Modello": "Galaxy S26 Ultra",
     "Memoria": "1 TB",
     "Colore": "White",
-    "Codice_PIM": "564022"
+    "Codice_PIM": 564022
   },
   {
     "Marca": "Samsung",
@@ -541,7 +533,7 @@
     "Modello": "Galaxy Z Flip7 FE",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "457271"
+    "Codice_PIM": 457271
   },
   {
     "Marca": "Samsung",
@@ -549,7 +541,7 @@
     "Modello": "Galaxy Z Flip7 FE",
     "Memoria": "128 GB",
     "Colore": "White",
-    "Codice_PIM": "457274"
+    "Codice_PIM": 457274
   },
   {
     "Marca": "Samsung",
@@ -557,7 +549,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "256 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593088"
+    "Codice_PIM": 593088
   },
   {
     "Marca": "Samsung",
@@ -565,7 +557,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "256 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593090"
+    "Codice_PIM": 593090
   },
   {
     "Marca": "Samsung",
@@ -573,7 +565,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "256 GB",
     "Colore": "Pink",
-    "Codice_PIM": "593092"
+    "Codice_PIM": 593092
   },
   {
     "Marca": "Samsung",
@@ -581,7 +573,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "512 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593089"
+    "Codice_PIM": 593089
   },
   {
     "Marca": "Samsung",
@@ -589,7 +581,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "512 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593091"
+    "Codice_PIM": 593091
   },
   {
     "Marca": "Samsung",
@@ -597,7 +589,7 @@
     "Modello": "Galaxy Z Flip8",
     "Memoria": "512 GB",
     "Colore": "Pink",
-    "Codice_PIM": "593094"
+    "Codice_PIM": 593094
   },
   {
     "Marca": "Samsung",
@@ -605,7 +597,7 @@
     "Modello": "Galaxy Z Fold7",
     "Memoria": "1 TB",
     "Colore": "Jetblack",
-    "Codice_PIM": "457060"
+    "Codice_PIM": 457060
   },
   {
     "Marca": "Samsung",
@@ -613,7 +605,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "256 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593095"
+    "Codice_PIM": 593095
   },
   {
     "Marca": "Samsung",
@@ -621,7 +613,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "256 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593098"
+    "Codice_PIM": 593098
   },
   {
     "Marca": "Samsung",
@@ -629,7 +621,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "256 GB",
     "Colore": "Lavender",
-    "Codice_PIM": "593101"
+    "Codice_PIM": 593101
   },
   {
     "Marca": "Samsung",
@@ -637,7 +629,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "512 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593096"
+    "Codice_PIM": 593096
   },
   {
     "Marca": "Samsung",
@@ -645,7 +637,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "512 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593099"
+    "Codice_PIM": 593099
   },
   {
     "Marca": "Samsung",
@@ -653,7 +645,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "512 GB",
     "Colore": "Lavender",
-    "Codice_PIM": "593102"
+    "Codice_PIM": 593102
   },
   {
     "Marca": "Samsung",
@@ -661,7 +653,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "1 TB",
     "Colore": "Cream",
-    "Codice_PIM": "593097"
+    "Codice_PIM": 593097
   },
   {
     "Marca": "Samsung",
@@ -669,7 +661,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "1 TB",
     "Colore": "Graphite",
-    "Codice_PIM": "593100"
+    "Codice_PIM": 593100
   },
   {
     "Marca": "Samsung",
@@ -677,7 +669,7 @@
     "Modello": "Galaxy Z Fold8",
     "Memoria": "1 TB",
     "Colore": "Lavender",
-    "Codice_PIM": "593103"
+    "Codice_PIM": 593103
   },
   {
     "Marca": "Samsung",
@@ -685,7 +677,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "256 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593077"
+    "Codice_PIM": 593077
   },
   {
     "Marca": "Samsung",
@@ -693,7 +685,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "256 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593080"
+    "Codice_PIM": 593080
   },
   {
     "Marca": "Samsung",
@@ -701,7 +693,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "256 GB",
     "Colore": "Violet Shadow",
-    "Codice_PIM": "593084"
+    "Codice_PIM": 593084
   },
   {
     "Marca": "Samsung",
@@ -709,7 +701,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "512 GB",
     "Colore": "Cream",
-    "Codice_PIM": "593078"
+    "Codice_PIM": 593078
   },
   {
     "Marca": "Samsung",
@@ -717,7 +709,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "512 GB",
     "Colore": "Graphite",
-    "Codice_PIM": "593081"
+    "Codice_PIM": 593081
   },
   {
     "Marca": "Samsung",
@@ -725,7 +717,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "512 GB",
     "Colore": "Violet Shadow",
-    "Codice_PIM": "593086"
+    "Codice_PIM": 593086
   },
   {
     "Marca": "Samsung",
@@ -733,7 +725,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "1 TB",
     "Colore": "Cream",
-    "Codice_PIM": "593079"
+    "Codice_PIM": 593079
   },
   {
     "Marca": "Samsung",
@@ -741,7 +733,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "1 TB",
     "Colore": "Graphite",
-    "Codice_PIM": "593082"
+    "Codice_PIM": 593082
   },
   {
     "Marca": "Samsung",
@@ -749,7 +741,7 @@
     "Modello": "Galaxy Z Fold8 Ultra",
     "Memoria": "1 TB",
     "Colore": "Violet Shadow",
-    "Codice_PIM": "593087"
+    "Codice_PIM": 593087
   },
   {
     "Marca": "OPPO",
@@ -757,7 +749,7 @@
     "Modello": "A6",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "561869"
+    "Codice_PIM": 561869
   },
   {
     "Marca": "OPPO",
@@ -765,7 +757,7 @@
     "Modello": "A6",
     "Memoria": "256 GB",
     "Colore": "Aurora Gold",
-    "Codice_PIM": "561880"
+    "Codice_PIM": 561880
   },
   {
     "Marca": "OPPO",
@@ -773,7 +765,7 @@
     "Modello": "A6 5G",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "561882"
+    "Codice_PIM": 561882
   },
   {
     "Marca": "OPPO",
@@ -781,7 +773,7 @@
     "Modello": "A6 5G",
     "Memoria": "256 GB",
     "Colore": "Aurora Gold",
-    "Codice_PIM": "561884"
+    "Codice_PIM": 561884
   },
   {
     "Marca": "OPPO",
@@ -789,7 +781,7 @@
     "Modello": "A6k",
     "Memoria": "256 GB",
     "Colore": "Crystal Blue",
-    "Codice_PIM": "561860"
+    "Codice_PIM": 561860
   },
   {
     "Marca": "OPPO",
@@ -797,7 +789,7 @@
     "Modello": "A6k",
     "Memoria": "256 GB",
     "Colore": "Crystal Black",
-    "Codice_PIM": "561868"
+    "Codice_PIM": 561868
   },
   {
     "Marca": "OPPO",
@@ -805,7 +797,7 @@
     "Modello": "A6x",
     "Memoria": "128 GB",
     "Colore": "Ice Blue",
-    "Codice_PIM": "561534"
+    "Codice_PIM": 561534
   },
   {
     "Marca": "OPPO",
@@ -813,7 +805,7 @@
     "Modello": "A6x",
     "Memoria": "128 GB",
     "Colore": "Black Purple",
-    "Codice_PIM": "561530"
+    "Codice_PIM": 561530
   },
   {
     "Marca": "OPPO",
@@ -821,7 +813,7 @@
     "Modello": "A6 Pro 5G",
     "Memoria": "256 GB",
     "Colore": "White",
-    "Codice_PIM": "530109"
+    "Codice_PIM": 530109
   },
   {
     "Marca": "OPPO",
@@ -829,7 +821,7 @@
     "Modello": "Reno15 5G",
     "Memoria": "512 GB",
     "Colore": "Aurora White",
-    "Codice_PIM": "564912"
+    "Codice_PIM": 564912
   },
   {
     "Marca": "OPPO",
@@ -837,7 +829,7 @@
     "Modello": "Reno15 5G",
     "Memoria": "512 GB",
     "Colore": "Twilight Black",
-    "Codice_PIM": "564896"
+    "Codice_PIM": 564896
   },
   {
     "Marca": "OPPO",
@@ -845,7 +837,7 @@
     "Modello": "Reno15 F 5G",
     "Memoria": "256 GB",
     "Colore": "Aurora Blue",
-    "Codice_PIM": "564916"
+    "Codice_PIM": 564916
   },
   {
     "Marca": "OPPO",
@@ -853,7 +845,7 @@
     "Modello": "Reno15 F 5G",
     "Memoria": "256 GB",
     "Colore": "Twilight Black",
-    "Codice_PIM": "564914"
+    "Codice_PIM": 564914
   },
   {
     "Marca": "OPPO",
@@ -861,7 +853,7 @@
     "Modello": "Reno15 FS 5G",
     "Memoria": "512 GB",
     "Colore": "Aurora Blue",
-    "Codice_PIM": "564920"
+    "Codice_PIM": 564920
   },
   {
     "Marca": "OPPO",
@@ -869,7 +861,7 @@
     "Modello": "Reno15 FS 5G",
     "Memoria": "512 GB",
     "Colore": "Twilight Black",
-    "Codice_PIM": "564919"
+    "Codice_PIM": 564919
   },
   {
     "Marca": "OPPO",
@@ -877,7 +869,7 @@
     "Modello": "Reno15 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "Aurora Blue",
-    "Codice_PIM": "564892"
+    "Codice_PIM": 564892
   },
   {
     "Marca": "OPPO",
@@ -885,7 +877,7 @@
     "Modello": "Reno15 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "Dusk Black",
-    "Codice_PIM": "564894"
+    "Codice_PIM": 564894
   },
   {
     "Marca": "OPPO",
@@ -893,7 +885,7 @@
     "Modello": "Reno16 5G",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "588833"
+    "Codice_PIM": 588833
   },
   {
     "Marca": "OPPO",
@@ -901,7 +893,7 @@
     "Modello": "Reno16 5G",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "588747"
+    "Codice_PIM": 588747
   },
   {
     "Marca": "OPPO",
@@ -909,7 +901,7 @@
     "Modello": "Reno16 FS 5G",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "588834"
+    "Codice_PIM": 588834
   },
   {
     "Marca": "OPPO",
@@ -917,7 +909,7 @@
     "Modello": "Reno16 FS 5G",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "588759"
+    "Codice_PIM": 588759
   },
   {
     "Marca": "OPPO",
@@ -925,7 +917,7 @@
     "Modello": "Reno16 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "588831"
+    "Codice_PIM": 588831
   },
   {
     "Marca": "OPPO",
@@ -933,7 +925,7 @@
     "Modello": "Reno16 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "588743"
+    "Codice_PIM": 588743
   },
   {
     "Marca": "OPPO",
@@ -941,7 +933,7 @@
     "Modello": "Find X9 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "Titanium Charcoal",
-    "Codice_PIM": "548102"
+    "Codice_PIM": 548102
   },
   {
     "Marca": "OPPO",
@@ -949,7 +941,7 @@
     "Modello": "Find X9 Ultra 5G",
     "Memoria": "512 GB",
     "Colore": "Canyon Orange",
-    "Codice_PIM": "580384"
+    "Codice_PIM": 580384
   },
   {
     "Marca": "OPPO",
@@ -957,7 +949,7 @@
     "Modello": "Find X9 Ultra 5G",
     "Memoria": "512 GB",
     "Colore": "Tundra Umber",
-    "Codice_PIM": "580383"
+    "Codice_PIM": 580383
   },
   {
     "Marca": "OPPO",
@@ -965,7 +957,7 @@
     "Modello": "Find X9 Ultra 5G Box",
     "Memoria": "512 GB",
     "Colore": "Orange",
-    "Codice_PIM": "580375"
+    "Codice_PIM": 580375
   },
   {
     "Marca": "OPPO",
@@ -973,7 +965,7 @@
     "Modello": "Find X9 Ultra 5G Box",
     "Memoria": "512 GB",
     "Colore": "Tundra Umber",
-    "Codice_PIM": "580374"
+    "Codice_PIM": 580374
   },
   {
     "Marca": "Xiaomi",
@@ -981,7 +973,7 @@
     "Modello": "Redmi A7 Pro",
     "Memoria": "64 GB",
     "Colore": "Black",
-    "Codice_PIM": "576413"
+    "Codice_PIM": 576413
   },
   {
     "Marca": "Xiaomi",
@@ -989,7 +981,7 @@
     "Modello": "Redmi A7 Pro",
     "Memoria": "64 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "576415"
+    "Codice_PIM": 576415
   },
   {
     "Marca": "Xiaomi",
@@ -997,7 +989,7 @@
     "Modello": "Redmi A7 Pro",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "576519"
+    "Codice_PIM": 576519
   },
   {
     "Marca": "Xiaomi",
@@ -1005,7 +997,7 @@
     "Modello": "Redmi A7 Pro",
     "Memoria": "128 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "576520"
+    "Codice_PIM": 576520
   },
   {
     "Marca": "Xiaomi",
@@ -1013,7 +1005,7 @@
     "Modello": "Redmi A7 Pro",
     "Memoria": "128 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "576522"
+    "Codice_PIM": 576522
   },
   {
     "Marca": "Xiaomi",
@@ -1021,7 +1013,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "467135"
+    "Codice_PIM": 467135
   },
   {
     "Marca": "Xiaomi",
@@ -1029,7 +1021,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "128 GB",
     "Colore": "ORANGE",
-    "Codice_PIM": "467137"
+    "Codice_PIM": 467137
   },
   {
     "Marca": "Xiaomi",
@@ -1037,7 +1029,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "128 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "467138"
+    "Codice_PIM": 467138
   },
   {
     "Marca": "Xiaomi",
@@ -1045,7 +1037,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "467151"
+    "Codice_PIM": 467151
   },
   {
     "Marca": "Xiaomi",
@@ -1053,7 +1045,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "256 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "495999"
+    "Codice_PIM": 495999
   },
   {
     "Marca": "Xiaomi",
@@ -1061,7 +1053,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "256 GB",
     "Colore": "ORANGE",
-    "Codice_PIM": "496008"
+    "Codice_PIM": 496008
   },
   {
     "Marca": "Xiaomi",
@@ -1069,7 +1061,7 @@
     "Modello": "Redmi 15C",
     "Memoria": "256 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "496014"
+    "Codice_PIM": 496014
   },
   {
     "Marca": "Xiaomi",
@@ -1077,7 +1069,7 @@
     "Modello": "Redmi 17",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "595175"
+    "Codice_PIM": 595175
   },
   {
     "Marca": "Xiaomi",
@@ -1085,7 +1077,7 @@
     "Modello": "Redmi 17",
     "Memoria": "128 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "595186"
+    "Codice_PIM": 595186
   },
   {
     "Marca": "Xiaomi",
@@ -1093,7 +1085,7 @@
     "Modello": "Redmi 17",
     "Memoria": "128 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "595184"
+    "Codice_PIM": 595184
   },
   {
     "Marca": "Xiaomi",
@@ -1101,7 +1093,7 @@
     "Modello": "Redmi 17",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "595189"
+    "Codice_PIM": 595189
   },
   {
     "Marca": "Xiaomi",
@@ -1109,7 +1101,7 @@
     "Modello": "Redmi 17",
     "Memoria": "256 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "595190"
+    "Codice_PIM": 595190
   },
   {
     "Marca": "Xiaomi",
@@ -1117,7 +1109,7 @@
     "Modello": "Redmi 17",
     "Memoria": "256 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "595192"
+    "Codice_PIM": 595192
   },
   {
     "Marca": "Xiaomi",
@@ -1125,7 +1117,7 @@
     "Modello": "Redmi Note 15",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "563288"
+    "Codice_PIM": 563288
   },
   {
     "Marca": "Xiaomi",
@@ -1133,7 +1125,7 @@
     "Modello": "Redmi Note 15",
     "Memoria": "128 GB",
     "Colore": "Glacier Blue",
-    "Codice_PIM": "563385"
+    "Codice_PIM": 563385
   },
   {
     "Marca": "Xiaomi",
@@ -1141,7 +1133,7 @@
     "Modello": "Redmi Note 15",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "557247"
+    "Codice_PIM": 557247
   },
   {
     "Marca": "Xiaomi",
@@ -1149,7 +1141,7 @@
     "Modello": "Redmi Note 15",
     "Memoria": "256 GB",
     "Colore": "Forest Green",
-    "Codice_PIM": "557254"
+    "Codice_PIM": 557254
   },
   {
     "Marca": "Xiaomi",
@@ -1157,7 +1149,7 @@
     "Modello": "Redmi Note 15 5G",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "557278"
+    "Codice_PIM": 557278
   },
   {
     "Marca": "Xiaomi",
@@ -1165,7 +1157,7 @@
     "Modello": "Redmi Note 15 5G",
     "Memoria": "256 GB",
     "Colore": "PURPLE",
-    "Codice_PIM": "557285"
+    "Codice_PIM": 557285
   },
   {
     "Marca": "Xiaomi",
@@ -1173,7 +1165,7 @@
     "Modello": "Redmi Note 15 5G",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "563382"
+    "Codice_PIM": 563382
   },
   {
     "Marca": "Xiaomi",
@@ -1181,7 +1173,7 @@
     "Modello": "Redmi Note 15 5G",
     "Memoria": "512 GB",
     "Colore": "PURPLE",
-    "Codice_PIM": "564810"
+    "Codice_PIM": 564810
   },
   {
     "Marca": "Xiaomi",
@@ -1189,7 +1181,7 @@
     "Modello": "Redmi Note 15 5G",
     "Memoria": "512 GB",
     "Colore": "Glacier Blue",
-    "Codice_PIM": "564805"
+    "Codice_PIM": 564805
   },
   {
     "Marca": "Xiaomi",
@@ -1197,7 +1189,7 @@
     "Modello": "Redmi Note 15 Pro",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "557260"
+    "Codice_PIM": 557260
   },
   {
     "Marca": "Xiaomi",
@@ -1205,7 +1197,7 @@
     "Modello": "Redmi Note 15 Pro",
     "Memoria": "256 GB",
     "Colore": "Glacier Blue",
-    "Codice_PIM": "557266"
+    "Codice_PIM": 557266
   },
   {
     "Marca": "Xiaomi",
@@ -1213,7 +1205,7 @@
     "Modello": "Redmi Note 15 Pro",
     "Memoria": "256 GB",
     "Colore": "TITANIO",
-    "Codice_PIM": "557262"
+    "Codice_PIM": 557262
   },
   {
     "Marca": "Xiaomi",
@@ -1221,7 +1213,7 @@
     "Modello": "Redmi Note 15 Pro 5G",
     "Memoria": "256 GB",
     "Colore": "BLACK",
-    "Codice_PIM": "557269"
+    "Codice_PIM": 557269
   },
   {
     "Marca": "Xiaomi",
@@ -1229,7 +1221,7 @@
     "Modello": "Redmi Note 15 Pro 5G",
     "Memoria": "512 GB",
     "Colore": "BLACK",
-    "Codice_PIM": "563254"
+    "Codice_PIM": 563254
   },
   {
     "Marca": "Xiaomi",
@@ -1237,7 +1229,7 @@
     "Modello": "Redmi Note 15 Pro+ 5G",
     "Memoria": "256 GB",
     "Colore": "BLACK",
-    "Codice_PIM": "557274"
+    "Codice_PIM": 557274
   },
   {
     "Marca": "Xiaomi",
@@ -1245,7 +1237,7 @@
     "Modello": "17",
     "Memoria": "512 GB",
     "Colore": "Ice Blue",
-    "Codice_PIM": "565472"
+    "Codice_PIM": 565472
   },
   {
     "Marca": "Xiaomi",
@@ -1253,7 +1245,7 @@
     "Modello": "17",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "565448"
+    "Codice_PIM": 565448
   },
   {
     "Marca": "Xiaomi",
@@ -1261,7 +1253,7 @@
     "Modello": "17T",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "582785"
+    "Codice_PIM": 582785
   },
   {
     "Marca": "Xiaomi",
@@ -1269,7 +1261,7 @@
     "Modello": "17T",
     "Memoria": "256 GB",
     "Colore": "Blu",
-    "Codice_PIM": "582786"
+    "Codice_PIM": 582786
   },
   {
     "Marca": "Xiaomi",
@@ -1277,7 +1269,7 @@
     "Modello": "17T",
     "Memoria": "256 GB",
     "Colore": "Viola",
-    "Codice_PIM": "582787"
+    "Codice_PIM": 582787
   },
   {
     "Marca": "Xiaomi",
@@ -1285,7 +1277,7 @@
     "Modello": "17T",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "582797"
+    "Codice_PIM": 582797
   },
   {
     "Marca": "Xiaomi",
@@ -1293,7 +1285,7 @@
     "Modello": "17T",
     "Memoria": "512 GB",
     "Colore": "Blu",
-    "Codice_PIM": "582788"
+    "Codice_PIM": 582788
   },
   {
     "Marca": "Xiaomi",
@@ -1301,7 +1293,7 @@
     "Modello": "17T",
     "Memoria": "512 GB",
     "Colore": "Viola",
-    "Codice_PIM": "582799"
+    "Codice_PIM": 582799
   },
   {
     "Marca": "Xiaomi",
@@ -1309,7 +1301,7 @@
     "Modello": "17T Pro",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "582767"
+    "Codice_PIM": 582767
   },
   {
     "Marca": "Xiaomi",
@@ -1317,7 +1309,7 @@
     "Modello": "17T Pro",
     "Memoria": "512 GB",
     "Colore": "Blu",
-    "Codice_PIM": "582772"
+    "Codice_PIM": 582772
   },
   {
     "Marca": "Xiaomi",
@@ -1325,7 +1317,7 @@
     "Modello": "17T Pro",
     "Memoria": "512 GB",
     "Colore": "Violet",
-    "Codice_PIM": "582757"
+    "Codice_PIM": 582757
   },
   {
     "Marca": "Xiaomi",
@@ -1333,7 +1325,7 @@
     "Modello": "17 Ultra",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "565475"
+    "Codice_PIM": 565475
   },
   {
     "Marca": "Xiaomi",
@@ -1341,7 +1333,7 @@
     "Modello": "17 Ultra",
     "Memoria": "512 GB",
     "Colore": "Starlit Green",
-    "Codice_PIM": "565476"
+    "Codice_PIM": 565476
   },
   {
     "Marca": "Honor",
@@ -1349,7 +1341,7 @@
     "Modello": "X5c Plus",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "556863"
+    "Codice_PIM": 556863
   },
   {
     "Marca": "Honor",
@@ -1357,7 +1349,7 @@
     "Modello": "X5c Plus",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "530364"
+    "Codice_PIM": 530364
   },
   {
     "Marca": "Honor",
@@ -1365,7 +1357,7 @@
     "Modello": "X5c Plus",
     "Memoria": "256 GB",
     "Colore": "CYAN",
-    "Codice_PIM": "530367"
+    "Codice_PIM": 530367
   },
   {
     "Marca": "Honor",
@@ -1373,7 +1365,7 @@
     "Modello": "400 Smart",
     "Memoria": "128 GB",
     "Colore": "GOLD",
-    "Codice_PIM": "521210"
+    "Codice_PIM": 521210
   },
   {
     "Marca": "Honor",
@@ -1381,7 +1373,7 @@
     "Modello": "400 Smart",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "521209"
+    "Codice_PIM": 521209
   },
   {
     "Marca": "Honor",
@@ -1389,7 +1381,7 @@
     "Modello": "400 Smart",
     "Memoria": "8+256GB",
     "Colore": "Black",
-    "Codice_PIM": "592000"
+    "Codice_PIM": 592000
   },
   {
     "Marca": "Honor",
@@ -1397,7 +1389,7 @@
     "Modello": "400 Smart",
     "Memoria": "8+256GB",
     "Colore": "GOLD",
-    "Codice_PIM": "592001"
+    "Codice_PIM": 592001
   },
   {
     "Marca": "Honor",
@@ -1405,7 +1397,7 @@
     "Modello": "400 Smart + cover + Choice X7 Lite",
     "Memoria": "256 GB",
     "Colore": "GOLD",
-    "Codice_PIM": "521216"
+    "Codice_PIM": 521216
   },
   {
     "Marca": "Honor",
@@ -1413,7 +1405,7 @@
     "Modello": "400 Smart + cover + Choice X7 Lite",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "521214"
+    "Codice_PIM": 521214
   },
   {
     "Marca": "Honor",
@@ -1421,7 +1413,7 @@
     "Modello": "400",
     "Memoria": "512 GB",
     "Colore": "SILVER",
-    "Codice_PIM": "559982"
+    "Codice_PIM": 559982
   },
   {
     "Marca": "Honor",
@@ -1429,7 +1421,7 @@
     "Modello": "600 Smart",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "590563"
+    "Codice_PIM": 590563
   },
   {
     "Marca": "Honor",
@@ -1437,7 +1429,7 @@
     "Modello": "600 Smart",
     "Memoria": "128 GB",
     "Colore": "SILVER",
-    "Codice_PIM": "590565"
+    "Codice_PIM": 590565
   },
   {
     "Marca": "Honor",
@@ -1445,7 +1437,7 @@
     "Modello": "600 Smart",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "590573"
+    "Codice_PIM": 590573
   },
   {
     "Marca": "Honor",
@@ -1453,7 +1445,7 @@
     "Modello": "600 Smart",
     "Memoria": "256 GB",
     "Colore": "SILVER",
-    "Codice_PIM": "590575"
+    "Codice_PIM": 590575
   },
   {
     "Marca": "Honor",
@@ -1461,7 +1453,7 @@
     "Modello": "600 Lite + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "574056"
+    "Codice_PIM": 574056
   },
   {
     "Marca": "Honor",
@@ -1469,7 +1461,7 @@
     "Modello": "600 Lite + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "GREY",
-    "Codice_PIM": "574062"
+    "Codice_PIM": 574062
   },
   {
     "Marca": "Honor",
@@ -1477,7 +1469,7 @@
     "Modello": "600 Lite + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "574064"
+    "Codice_PIM": 574064
   },
   {
     "Marca": "Honor",
@@ -1485,7 +1477,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "GOLD",
-    "Codice_PIM": "578661"
+    "Codice_PIM": 578661
   },
   {
     "Marca": "Honor",
@@ -1493,7 +1485,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "ORANGE",
-    "Codice_PIM": "578662"
+    "Codice_PIM": 578662
   },
   {
     "Marca": "Honor",
@@ -1501,7 +1493,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "578659"
+    "Codice_PIM": 578659
   },
   {
     "Marca": "Honor",
@@ -1509,7 +1501,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "578668"
+    "Codice_PIM": 578668
   },
   {
     "Marca": "Honor",
@@ -1517,7 +1509,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "512 GB",
     "Colore": "GOLD",
-    "Codice_PIM": "578669"
+    "Codice_PIM": 578669
   },
   {
     "Marca": "Honor",
@@ -1525,7 +1517,7 @@
     "Modello": "600 + WATCH 2i",
     "Memoria": "512 GB",
     "Colore": "ORANGE",
-    "Codice_PIM": "578671"
+    "Codice_PIM": 578671
   },
   {
     "Marca": "Honor",
@@ -1533,7 +1525,7 @@
     "Modello": "600 Pro",
     "Memoria": "12+512GB",
     "Colore": "GOLD",
-    "Codice_PIM": "578680"
+    "Codice_PIM": 578680
   },
   {
     "Marca": "Honor",
@@ -1541,7 +1533,7 @@
     "Modello": "600 Pro",
     "Memoria": "12+512GB",
     "Colore": "Nero",
-    "Codice_PIM": "578677"
+    "Codice_PIM": 578677
   },
   {
     "Marca": "Honor",
@@ -1549,7 +1541,7 @@
     "Modello": "Magic 6 Lite",
     "Memoria": "512 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "399624"
+    "Codice_PIM": 399624
   },
   {
     "Marca": "Honor",
@@ -1557,7 +1549,7 @@
     "Modello": "Magic 8 Lite + cover + Choice X7 Lite Earbuds",
     "Memoria": "256 GB",
     "Colore": "Forest Green",
-    "Codice_PIM": "559754"
+    "Codice_PIM": 559754
   },
   {
     "Marca": "Honor",
@@ -1565,7 +1557,7 @@
     "Modello": "Magic 8 Lite + cover + Choice X7 Lite Earbuds",
     "Memoria": "256 GB",
     "Colore": "Midnight Black",
-    "Codice_PIM": "559753"
+    "Codice_PIM": 559753
   },
   {
     "Marca": "Honor",
@@ -1573,7 +1565,7 @@
     "Modello": "Magic 8 Lite + cover + Super Charge 66W",
     "Memoria": "512 GB",
     "Colore": "Forest Green",
-    "Codice_PIM": "559759"
+    "Codice_PIM": 559759
   },
   {
     "Marca": "Honor",
@@ -1581,7 +1573,7 @@
     "Modello": "Magic 8 Lite + cover + Super Charge 66W",
     "Memoria": "512 GB",
     "Colore": "Midnight Black",
-    "Codice_PIM": "559758"
+    "Codice_PIM": 559758
   },
   {
     "Marca": "Honor",
@@ -1589,7 +1581,7 @@
     "Modello": "Magic V5",
     "Memoria": "16+512GB",
     "Colore": "Black",
-    "Codice_PIM": "498440"
+    "Codice_PIM": 498440
   },
   {
     "Marca": "Honor",
@@ -1597,7 +1589,7 @@
     "Modello": "Magic V5",
     "Memoria": "16+512GB",
     "Colore": "GOLD",
-    "Codice_PIM": "498441"
+    "Codice_PIM": 498441
   },
   {
     "Marca": "Honor",
@@ -1605,7 +1597,7 @@
     "Modello": "Magic V6",
     "Memoria": "16+512 GB",
     "Colore": "Black",
-    "Codice_PIM": "589408"
+    "Codice_PIM": 589408
   },
   {
     "Marca": "Honor",
@@ -1613,7 +1605,7 @@
     "Modello": "Magic V6",
     "Memoria": "16+512 GB",
     "Colore": "GOLD",
-    "Codice_PIM": "589416"
+    "Codice_PIM": 589416
   },
   {
     "Marca": "Motorola",
@@ -1621,7 +1613,7 @@
     "Modello": "Moto E15 4G",
     "Memoria": "2+64GB",
     "Colore": "Lavanda",
-    "Codice_PIM": "552227"
+    "Codice_PIM": 552227
   },
   {
     "Marca": "Motorola",
@@ -1629,7 +1621,7 @@
     "Modello": "Moto G05",
     "Memoria": "128 GB",
     "Colore": "RED",
-    "Codice_PIM": "425247"
+    "Codice_PIM": 425247
   },
   {
     "Marca": "Motorola",
@@ -1637,7 +1629,7 @@
     "Modello": "Moto G05",
     "Memoria": "128 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "425245"
+    "Codice_PIM": 425245
   },
   {
     "Marca": "Motorola",
@@ -1645,7 +1637,7 @@
     "Modello": "Moto G05",
     "Memoria": "8+256 GB",
     "Colore": "Denim Blue",
-    "Codice_PIM": "583022"
+    "Codice_PIM": 583022
   },
   {
     "Marca": "Motorola",
@@ -1653,7 +1645,7 @@
     "Modello": "Moto G05",
     "Memoria": "8+256 GB",
     "Colore": "Forest Green",
-    "Codice_PIM": "583016"
+    "Codice_PIM": 583016
   },
   {
     "Marca": "Motorola",
@@ -1661,7 +1653,7 @@
     "Modello": "MOTO G06",
     "Memoria": "4+128 GB",
     "Colore": "Blu",
-    "Codice_PIM": "553357"
+    "Codice_PIM": 553357
   },
   {
     "Marca": "Motorola",
@@ -1669,7 +1661,7 @@
     "Modello": "MOTO G06",
     "Memoria": "4+128 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "553364"
+    "Codice_PIM": 553364
   },
   {
     "Marca": "Motorola",
@@ -1677,7 +1669,7 @@
     "Modello": "MOTO G06",
     "Memoria": "4+256 GB",
     "Colore": "BLUE",
-    "Codice_PIM": "553366"
+    "Codice_PIM": 553366
   },
   {
     "Marca": "Motorola",
@@ -1685,7 +1677,7 @@
     "Modello": "MOTO G06",
     "Memoria": "4+256 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "553369"
+    "Codice_PIM": 553369
   },
   {
     "Marca": "Motorola",
@@ -1693,7 +1685,7 @@
     "Modello": "MOTO G06",
     "Memoria": "4+256 GB",
     "Colore": "Arabesque",
-    "Codice_PIM": "553365"
+    "Codice_PIM": 553365
   },
   {
     "Marca": "Motorola",
@@ -1701,7 +1693,7 @@
     "Modello": "G15 POWER 8+512",
     "Memoria": "512 GB",
     "Colore": "GREY",
-    "Codice_PIM": "531135"
+    "Codice_PIM": 531135
   },
   {
     "Marca": "Motorola",
@@ -1709,7 +1701,7 @@
     "Modello": "Moto G15",
     "Memoria": "8+512GB",
     "Colore": "GREY",
-    "Codice_PIM": "423937"
+    "Codice_PIM": 423937
   },
   {
     "Marca": "Motorola",
@@ -1717,7 +1709,7 @@
     "Modello": "Moto G56 5G",
     "Memoria": "8+256GB",
     "Colore": "Black",
-    "Codice_PIM": "531445"
+    "Codice_PIM": 531445
   },
   {
     "Marca": "Motorola",
@@ -1725,7 +1717,7 @@
     "Modello": "Moto g57 8+256",
     "Memoria": "256 GB",
     "Colore": "PANTONE Corsair",
-    "Codice_PIM": "564371"
+    "Codice_PIM": 564371
   },
   {
     "Marca": "Motorola",
@@ -1733,7 +1725,7 @@
     "Modello": "Moto g57 8+256",
     "Memoria": "256 GB",
     "Colore": "PANTONE Regatta",
-    "Codice_PIM": "564385"
+    "Codice_PIM": 564385
   },
   {
     "Marca": "Motorola",
@@ -1741,7 +1733,7 @@
     "Modello": "Moto g77 8+256",
     "Memoria": "256 GB",
     "Colore": "Blu",
-    "Codice_PIM": "564387"
+    "Codice_PIM": 564387
   },
   {
     "Marca": "Motorola",
@@ -1749,7 +1741,7 @@
     "Modello": "Moto g77 8+256",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "564386"
+    "Codice_PIM": 564386
   },
   {
     "Marca": "Motorola",
@@ -1757,7 +1749,7 @@
     "Modello": "Moto G86 5G",
     "Memoria": "8+256GB",
     "Colore": "Viola",
-    "Codice_PIM": "554536"
+    "Codice_PIM": 554536
   },
   {
     "Marca": "Motorola",
@@ -1765,7 +1757,7 @@
     "Modello": "Moto G86 5G",
     "Memoria": "8+256GB",
     "Colore": "Oro",
-    "Codice_PIM": "554538"
+    "Codice_PIM": 554538
   },
   {
     "Marca": "Motorola",
@@ -1773,7 +1765,7 @@
     "Modello": "Moto G87",
     "Memoria": "8+256GB",
     "Colore": "BLUE",
-    "Codice_PIM": "583297"
+    "Codice_PIM": 583297
   },
   {
     "Marca": "Motorola",
@@ -1781,7 +1773,7 @@
     "Modello": "Moto G87",
     "Memoria": "8+256GB",
     "Colore": "Black",
-    "Codice_PIM": "583298"
+    "Codice_PIM": 583298
   },
   {
     "Marca": "Motorola",
@@ -1789,7 +1781,7 @@
     "Modello": "Moto G56 5G",
     "Memoria": "8+512GB",
     "Colore": "PANTONE Black Oyster",
-    "Codice_PIM": "583133"
+    "Codice_PIM": 583133
   },
   {
     "Marca": "Motorola",
@@ -1797,7 +1789,7 @@
     "Modello": "Moto G56 5G",
     "Memoria": "8+512GB",
     "Colore": "PANTONE Gray Mist",
-    "Codice_PIM": "583135"
+    "Codice_PIM": 583135
   },
   {
     "Marca": "Motorola",
@@ -1805,7 +1797,7 @@
     "Modello": "EDGE 60 PRO 12+512",
     "Memoria": "512 GB",
     "Colore": "BROWN",
-    "Codice_PIM": "562333"
+    "Codice_PIM": 562333
   },
   {
     "Marca": "Motorola",
@@ -1813,7 +1805,7 @@
     "Modello": "EDGE 60 PRO 12+512",
     "Memoria": "512 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "562228"
+    "Codice_PIM": 562228
   },
   {
     "Marca": "Motorola",
@@ -1821,7 +1813,7 @@
     "Modello": "Edge 70",
     "Memoria": "512 GB",
     "Colore": "GREY",
-    "Codice_PIM": "551614"
+    "Codice_PIM": 551614
   },
   {
     "Marca": "Motorola",
@@ -1829,7 +1821,7 @@
     "Modello": "Edge 70",
     "Memoria": "512 GB",
     "Colore": "Bronze Green",
-    "Codice_PIM": "551615"
+    "Codice_PIM": 551615
   },
   {
     "Marca": "Motorola",
@@ -1837,7 +1829,7 @@
     "Modello": "Edge 70",
     "Memoria": "512 GB",
     "Colore": "Lily Pad",
-    "Codice_PIM": "551616"
+    "Codice_PIM": 551616
   },
   {
     "Marca": "Motorola",
@@ -1845,7 +1837,7 @@
     "Modello": "Signature 16+512",
     "Memoria": "512 GB",
     "Colore": "PANTONE Carbon",
-    "Codice_PIM": "564674"
+    "Codice_PIM": 564674
   },
   {
     "Marca": "Motorola",
@@ -1853,7 +1845,7 @@
     "Modello": "Signature 16+512",
     "Memoria": "512 GB",
     "Colore": "PANTONE Martini Olive",
-    "Codice_PIM": "564679"
+    "Codice_PIM": 564679
   },
   {
     "Marca": "Motorola",
@@ -1861,7 +1853,7 @@
     "Modello": "Razr 60 Ultra",
     "Memoria": "512 GB",
     "Colore": "Scarab",
-    "Codice_PIM": "425416"
+    "Codice_PIM": 425416
   },
   {
     "Marca": "Motorola",
@@ -1869,7 +1861,7 @@
     "Modello": "Razr 70",
     "Memoria": "8+256 GB",
     "Colore": "PANTONE Hematite",
-    "Codice_PIM": "581423"
+    "Codice_PIM": 581423
   },
   {
     "Marca": "Motorola",
@@ -1877,7 +1869,7 @@
     "Modello": "Razr 70",
     "Memoria": "8+256 GB",
     "Colore": "PANTONE Sporting Green",
-    "Codice_PIM": "581409"
+    "Codice_PIM": 581409
   },
   {
     "Marca": "Motorola",
@@ -1885,7 +1877,7 @@
     "Modello": "razr 70 plus",
     "Memoria": "12+512GB",
     "Colore": "PANTONE Mountain View",
-    "Codice_PIM": "582408"
+    "Codice_PIM": 582408
   },
   {
     "Marca": "Motorola",
@@ -1893,7 +1885,7 @@
     "Modello": "Razr Fold",
     "Memoria": "16+512GB",
     "Colore": "PANTONE Blackened Blue",
-    "Codice_PIM": "583137"
+    "Codice_PIM": 583137
   },
   {
     "Marca": "Motorola",
@@ -1901,7 +1893,7 @@
     "Modello": "Razr Fold",
     "Memoria": "16+512GB",
     "Colore": "PANTONE Lily White",
-    "Codice_PIM": "583136"
+    "Codice_PIM": 583136
   },
   {
     "Marca": "Google",
@@ -1909,7 +1901,7 @@
     "Modello": "Pixel 10",
     "Memoria": "128 GB",
     "Colore": "Nero ossidiana",
-    "Codice_PIM": "498198"
+    "Codice_PIM": 498198
   },
   {
     "Marca": "Google",
@@ -1917,7 +1909,7 @@
     "Modello": "Pixel 10",
     "Memoria": "256 GB",
     "Colore": "Nero ossidiana",
-    "Codice_PIM": "498203"
+    "Codice_PIM": 498203
   },
   {
     "Marca": "Google",
@@ -1925,7 +1917,7 @@
     "Modello": "Pixel 10",
     "Memoria": "128 GB",
     "Colore": "Viola glicine",
-    "Codice_PIM": "498189"
+    "Codice_PIM": 498189
   },
   {
     "Marca": "Google",
@@ -1933,7 +1925,7 @@
     "Modello": "Pixel 10",
     "Memoria": "128 GB",
     "Colore": "Blu indaco",
-    "Codice_PIM": "498197"
+    "Codice_PIM": 498197
   },
   {
     "Marca": "Google",
@@ -1941,7 +1933,7 @@
     "Modello": "Pixel 10",
     "Memoria": "128 GB",
     "Colore": "Verde cedro",
-    "Codice_PIM": "498193"
+    "Codice_PIM": 498193
   },
   {
     "Marca": "Google",
@@ -1949,7 +1941,7 @@
     "Modello": "Pixel 10a",
     "Memoria": "128 GB",
     "Colore": "Nero ossidiana",
-    "Codice_PIM": "565937"
+    "Codice_PIM": 565937
   },
   {
     "Marca": "Google",
@@ -1957,7 +1949,7 @@
     "Modello": "Pixel 10a",
     "Memoria": "128 GB",
     "Colore": "Viola lavanda",
-    "Codice_PIM": "565981"
+    "Codice_PIM": 565981
   },
   {
     "Marca": "Google",
@@ -1965,7 +1957,7 @@
     "Modello": "Pixel 10a",
     "Memoria": "128 GB",
     "Colore": "Grigio nebbia",
-    "Codice_PIM": "565938"
+    "Codice_PIM": 565938
   },
   {
     "Marca": "Google",
@@ -1973,7 +1965,7 @@
     "Modello": "Pixel 10a",
     "Memoria": "256 GB",
     "Colore": "Viola lavanda",
-    "Codice_PIM": "565991"
+    "Codice_PIM": 565991
   },
   {
     "Marca": "Google",
@@ -1981,7 +1973,7 @@
     "Modello": "Pixel 10a",
     "Memoria": "256 GB",
     "Colore": "Grigio nebbia",
-    "Codice_PIM": "565990"
+    "Codice_PIM": 565990
   },
   {
     "Marca": "ZTE",
@@ -1989,7 +1981,7 @@
     "Modello": "BLADE A35",
     "Memoria": "64 GB",
     "Colore": "Black",
-    "Codice_PIM": "454698"
+    "Codice_PIM": 454698
   },
   {
     "Marca": "ZTE",
@@ -1997,7 +1989,7 @@
     "Modello": "BLADE A35",
     "Memoria": "64 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "588166"
+    "Codice_PIM": 588166
   },
   {
     "Marca": "ZTE",
@@ -2005,7 +1997,7 @@
     "Modello": "Blade A36",
     "Memoria": "64 GB",
     "Colore": "Black",
-    "Codice_PIM": "583221"
+    "Codice_PIM": 583221
   },
   {
     "Marca": "ZTE",
@@ -2013,7 +2005,7 @@
     "Modello": "Blade A36",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "573903"
+    "Codice_PIM": 573903
   },
   {
     "Marca": "ZTE",
@@ -2021,7 +2013,7 @@
     "Modello": "Blade A36",
     "Memoria": "128 GB",
     "Colore": "GREEN",
-    "Codice_PIM": "573918"
+    "Codice_PIM": 573918
   },
   {
     "Marca": "ZTE",
@@ -2029,7 +2021,7 @@
     "Modello": "Blade A76 5G",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "462856"
+    "Codice_PIM": 462856
   },
   {
     "Marca": "ZTE",
@@ -2037,7 +2029,7 @@
     "Modello": "BLADE V70 VITA",
     "Memoria": "256 GB",
     "Colore": "DARK GREY",
-    "Codice_PIM": "554216"
+    "Codice_PIM": 554216
   },
   {
     "Marca": "ZTE",
@@ -2045,7 +2037,7 @@
     "Modello": "BLADE V70 VITA",
     "Memoria": "256 GB",
     "Colore": "FOREST GREEN",
-    "Codice_PIM": "425051"
+    "Codice_PIM": 425051
   },
   {
     "Marca": "ZTE",
@@ -2053,7 +2045,7 @@
     "Modello": "V80 Max",
     "Memoria": "128 GB",
     "Colore": "Black",
-    "Codice_PIM": "576465"
+    "Codice_PIM": 576465
   },
   {
     "Marca": "ZTE",
@@ -2061,7 +2053,7 @@
     "Modello": "V80 Max",
     "Memoria": "128 GB",
     "Colore": "Silver",
-    "Codice_PIM": "576473"
+    "Codice_PIM": 576473
   },
   {
     "Marca": "ZTE",
@@ -2069,7 +2061,7 @@
     "Modello": "V80 Pro",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "575056"
+    "Codice_PIM": 575056
   },
   {
     "Marca": "ZTE",
@@ -2077,7 +2069,7 @@
     "Modello": "NUBIA AIR",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "530222"
+    "Codice_PIM": 530222
   },
   {
     "Marca": "ZTE",
@@ -2085,7 +2077,7 @@
     "Modello": "nubia Air Pro",
     "Memoria": "512 GB",
     "Colore": "Black",
-    "Codice_PIM": "577858"
+    "Codice_PIM": 577858
   },
   {
     "Marca": "ZTE",
@@ -2093,7 +2085,7 @@
     "Modello": "nubia Air Pro",
     "Memoria": "512 GB",
     "Colore": "White",
-    "Codice_PIM": "578151"
+    "Codice_PIM": 578151
   },
   {
     "Marca": "ZTE",
@@ -2101,6 +2093,6 @@
     "Modello": "nubia Neo 5 GT 5G",
     "Memoria": "256 GB",
     "Colore": "Black",
-    "Codice_PIM": "582706"
+    "Codice_PIM": 582706
   }
 ]

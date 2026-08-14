@@ -15,7 +15,25 @@
     <div class="container">
         <header>
             <h1>📱 Catalogo MW</h1>
-            <span class="version">v3.2</span>
+            <div class="header-right">
+                <button id="qrBtn" class="qr-btn" title="Mostra QR Code">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="7" height="7" fill="white"/>
+                        <rect x="14" y="3" width="7" height="7" fill="white"/>
+                        <rect x="3" y="14" width="7" height="7" fill="white"/>
+                        <rect x="5" y="5" width="3" height="3" fill="#de2427"/>
+                        <rect x="16" y="5" width="3" height="3" fill="#de2427"/>
+                        <rect x="5" y="16" width="3" height="3" fill="#de2427"/>
+                        <rect x="14" y="14" width="2" height="2" fill="white"/>
+                        <rect x="17" y="14" width="2" height="2" fill="white"/>
+                        <rect x="14" y="17" width="2" height="2" fill="white"/>
+                        <rect x="17" y="17" width="2" height="2" fill="white"/>
+                        <rect x="14" y="14" width="2" height="2" fill="#de2427"/>
+                        <rect x="17" y="17" width="2" height="2" fill="#de2427"/>
+                    </svg>
+                </button>
+                <span class="version">v3.2</span>
+            </div>
         </header>
 
         <div class="search-section">
@@ -40,7 +58,18 @@
         </footer>
     </div>
 
+    <!-- QR Code Modal -->
+    <div id="qrModal" class="qr-modal hidden">
+        <div class="qr-modal-content">
+            <button id="closeQrModal" class="close-modal">&times;</button>
+            <h2>Scansiona il QR Code</h2>
+            <div id="qrCodeContainer" class="qr-code-container"></div>
+            <p class="qr-url" id="qrUrl"></p>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="app.js?v=4.4"></script>
     <script>
         // Service worker temporarily disabled for testing

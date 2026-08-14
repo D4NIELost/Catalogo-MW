@@ -960,4 +960,54 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('searchInput').value = '';
         document.getElementById('searchResults').classList.add('hidden');
     });
+    
+    // QR Code button
+    document.getElementById('qrBtn').addEventListener('click', showQRCode);
+    
+    // Close QR modal
+    document.getElementById('closeQrModal').addEventListener('click', hideQRCode);
+    
+    // Close modal when clicking outside
+    document.getElementById('qrModal').addEventListener('click', (e) => {
+        if (e.target.id === 'qrModal') {
+            hideQRCode();
+        }
+    });
 });
+
+// QR Code functions
+function showQRCode() {
+    const modal = document.getElementById('qrModal');
+    const container = document.getElementById('qrCodeContainer');
+    const urlDisplay = document.getElementById('qrUrl');
+    
+    // Use production URL
+    const currentUrl = 'https://d4nielost.github.io/Catalogo-MW/';
+    
+    // Clear previous QR code
+    container.innerHTML = '';
+    
+    // Generate QR code
+    if (typeof QRCode !== 'undefined') {
+        new QRCode(container, {
+            text: currentUrl,
+            width: 250,
+            height: 250,
+            colorDark: "#de2427",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H
+        });
+    } else {
+        container.innerHTML = '<p style="color: red;">Libreria QR Code non caricata</p>';
+    }
+    
+    // Display URL
+    urlDisplay.textContent = currentUrl;
+    
+    // Show modal
+    modal.classList.remove('hidden');
+}
+
+function hideQRCode() {
+    document.getElementById('qrModal').classList.add('hidden');
+}
