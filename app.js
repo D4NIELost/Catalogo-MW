@@ -11,8 +11,7 @@ const state = {
     servicesCategory: null,
     servicesSubcategory: null,
     selectedService: null,
-    databases: {},
-    scrollPositions: {} // Store scroll positions for each view
+    databases: {}
 };
 
 // Color mapping (same as Python version)
@@ -170,70 +169,15 @@ async function loadDatabases() {
     }
 }
 
-// Get a unique key for the current view state
-function getViewKey() {
-    if (state.currentSection === 'phones') {
-        if (state.selectedVariant) {
-            return `phones_variant_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}_${state.selectedMemory}_${state.selectedVariant.Colore}`;
-        } else if (state.selectedMemory) {
-            return `phones_colors_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}_${state.selectedMemory}`;
-        } else if (state.selectedModel) {
-            return `phones_memories_${state.selectedBrand}_${state.selectedCategory}_${state.selectedModel}`;
-        } else if (state.selectedCategory) {
-            return `phones_models_${state.selectedBrand}_${state.selectedCategory}`;
-        } else if (state.selectedBrand) {
-            return `phones_categories_${state.selectedBrand}`;
-        } else {
-            return `phones_brands`;
-        }
-    } else if (state.currentSection === 'services') {
-        if (state.selectedService) {
-            return `services_service_${state.servicesCategory}_${state.servicesSubcategory}_${state.selectedService}`;
-        } else if (state.servicesSubcategory) {
-            return `services_services_${state.servicesCategory}_${state.servicesSubcategory}`;
-        } else if (state.servicesCategory) {
-            return `services_subcategories_${state.servicesCategory}`;
-        } else {
-            return `services_categories`;
-        }
-    }
-    return state.currentSection;
-}
-
-// Save current scroll position
-function saveScrollPosition() {
-    const mainContent = document.getElementById('mainContent');
-    if (mainContent) {
-        const key = getViewKey();
-        state.scrollPositions[key] = mainContent.scrollTop;
-    }
-}
-
-// Restore scroll position for current view
-function restoreScrollPosition() {
-    const mainContent = document.getElementById('mainContent');
-    if (mainContent) {
-        const key = getViewKey();
-        if (state.scrollPositions[key] !== undefined) {
-            mainContent.scrollTop = state.scrollPositions[key];
-        }
-    }
-}
-
 // Render main content based on state
 function renderMainContent() {
     const mainContent = document.getElementById('mainContent');
-
+    
     if (state.currentSection === 'phones') {
         renderPhonesSection(mainContent);
     } else if (state.currentSection === 'services') {
         renderServicesSection(mainContent);
     }
-
-    // Restore scroll position after rendering - use requestAnimationFrame to ensure DOM is ready
-    requestAnimationFrame(() => {
-        requestAnimationFrame(restoreScrollPosition);
-    });
 }
 
 // Render phones section
@@ -662,74 +606,66 @@ function renderServiceView(container) {
 
 // Selection functions
 function selectBrand(brand) {
-    saveScrollPosition(); // Save current view position before navigating
     state.selectedBrand = brand;
     renderMainContent();
 }
 
 function selectCategory(category) {
-    saveScrollPosition(); // Save current view position before navigating
     state.selectedCategory = category;
     renderMainContent();
 }
 
 function selectModel(model) {
-    saveScrollPosition(); // Save current view position before navigating
     state.selectedModel = model;
     renderMainContent();
 }
 
 function selectMemory(memory) {
-    saveScrollPosition(); // Save current view position before navigating
     state.selectedMemory = memory;
     state.modelHasSingleMemory = false;
     renderMainContent();
 }
 
 function selectColor(color) {
-    saveScrollPosition(); // Save current view position before navigating
     const category = state.selectedCategory;
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
-
-    let products = database.filter(p =>
-        p.Marca === state.selectedBrand &&
+    
+    let products = database.filter(p => 
+        p.Marca === state.selectedBrand && 
         p.Modello === state.selectedModel &&
         p.Colore === color
     );
-
+    
     // Filter by memory if selected
     let filterColumn;
     if (category === 'Smartwatch') filterColumn = 'mm';
     else if (category === 'Notebook') filterColumn = 'pollici';
     else filterColumn = 'Memoria';
-
+    
     if (state.selectedMemory && state.selectedMemory !== 'n/n') {
         products = products.filter(p => p[filterColumn] === state.selectedMemory);
     }
-
+    
     state.selectedVariant = products[0];
     state.skippedColorSelection = false;
     renderMainContent();
 }
 
 function selectServicesCategory(category) {
-    saveScrollPosition(); // Save current view position before navigating
     state.servicesCategory = category;
     renderMainContent();
 }
 
 function selectServicesSubcategory(subcategory) {
-    saveScrollPosition(); // Save current view position before navigating
     state.servicesSubcategory = subcategory;
     renderMainContent();
 }
 
 function selectService(service) {
-    saveScrollPosition(); // Save current view position before navigating
     state.selectedService = service;
     renderMainContent();
 }
@@ -777,7 +713,7 @@ function goBackServices() {
                 .filter(s => s.Categoria === category)
                 .map(s => s.Sottocategoria)
         )];
-
+        
         if (subcategories.length === 1) {
             state.servicesSubcategory = null;
             state.servicesCategory = null;
@@ -801,7 +737,6 @@ function goHome() {
     state.servicesCategory = null;
     state.servicesSubcategory = null;
     state.selectedService = null;
-    state.scrollPositions = {}; // Clear scroll positions
     renderMainContent();
 }
 
@@ -947,30 +882,30 @@ function selectSearchResult(brand, category, model, pim) {
         document.getElementById('navPhones').classList.add('active');
         document.getElementById('navServices').classList.remove('active');
     }
-
+    
     state.selectedBrand = brand;
     state.selectedCategory = category;
     state.selectedModel = model;
-
+    
     // Find the variant and select it
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
-
-    const variant = database.find(p =>
-        p.Marca === brand &&
-        p.Modello === model &&
+    
+    const variant = database.find(p => 
+        p.Marca === brand && 
+        p.Modello === model && 
         p.Codice_PIM.toString() === pim.toString()
     );
-
+    
     if (variant) {
         state.selectedVariant = variant;
         state.selectedMemory = variant.Memoria || variant.mm || variant.pollici || 'n/n';
         state.skippedColorSelection = true;
     }
-
+    
     // Keep search results visible
     renderMainContent();
 }
@@ -978,7 +913,7 @@ function selectSearchResult(brand, category, model, pim) {
 function selectServiceSearchResult(serviceName) {
     state.currentSection = 'services';
     state.selectedService = serviceName;
-
+    
     // Update navigation buttons
     document.getElementById('navServices').classList.add('active');
     document.getElementById('navPhones').classList.remove('active');
@@ -990,18 +925,16 @@ function selectServiceSearchResult(serviceName) {
 // Event listeners
 document.addEventListener('DOMContentLoaded', () => {
     loadDatabases();
-
+    
     // Navigation buttons
     document.getElementById('navPhones').addEventListener('click', () => {
-        saveScrollPosition(); // Save current view position before changing section
         state.currentSection = 'phones';
         document.getElementById('navPhones').classList.add('active');
         document.getElementById('navServices').classList.remove('active');
         renderMainContent();
     });
-
+    
     document.getElementById('navServices').addEventListener('click', () => {
-        saveScrollPosition(); // Save current view position before changing section
         state.currentSection = 'services';
         document.getElementById('navServices').classList.add('active');
         document.getElementById('navPhones').classList.remove('active');
