@@ -147,8 +147,16 @@ def extract_color_from_model(model):
     
     return ""
 
-def extract_memory(soup, model=""):
+def extract_memory(soup, model="", url=""):
     """Extract memory from product page or model name (for smartwatches)"""
+    # Try to extract memory from URL first (most reliable for MediaWorld)
+    # URL pattern: .../product/_model-256gb-color-pim.html or .../product/_model-256-gb-color-pim.html
+    url_memory_match = re.search(r'-(\d+)\s*[-_]?(gb|tb|mb)', url, re.I)
+    if url_memory_match:
+        memory_value = url_memory_match.group(1)
+        memory_unit = url_memory_match.group(2).upper()
+        return f"{memory_value} {memory_unit}"
+    
     # Try multiple selectors for memory/storage
     selectors = [
         soup.find('span', string=re.compile(r"Memoria|Storage|Capacità", re.I)),
@@ -503,7 +511,7 @@ def scrape_category_products(brand, category):
             if not color or color.strip() == '':
                 color = 'n/n'
             
-            memory = extract_memory(prod_soup, model)
+            memory = extract_memory(prod_soup, model, prod_url)
             
             # Determine product type
             product_type = determine_product_type(model, category)
@@ -516,7 +524,7 @@ def scrape_category_products(brand, category):
                     memory = mm_match.group(1) + " mm"
                 else:
                     # Try to extract from page
-                    mm_from_page = extract_memory(prod_soup, model)
+                    mm_from_page = extract_memory(prod_soup, model, prod_url)
                     if 'mm' in mm_from_page.lower():
                         memory = mm_from_page
                     else:
@@ -910,7 +918,7 @@ def scrape_with_filters(brand):
             if not color and color_from_model:
                 color = color_from_model
             
-            memory = extract_memory(prod_soup, model)
+            memory = extract_memory(prod_soup, model, prod_url)
             
             # Determine product type
             product_type = determine_product_type(model, category)
@@ -923,7 +931,7 @@ def scrape_with_filters(brand):
                     memory = mm_match.group(1) + " mm"
                 else:
                     # Try to extract from page
-                    mm_from_page = extract_memory(prod_soup, model)
+                    mm_from_page = extract_memory(prod_soup, model, prod_url)
                     if 'mm' in mm_from_page.lower():
                         memory = mm_from_page
                     else:
@@ -1304,7 +1312,7 @@ def scrape_brand_only(brand):
             if not color or color.strip() == '':
                 color = 'n/n'
             
-            memory = extract_memory(prod_soup, model)
+            memory = extract_memory(prod_soup, model, prod_url)
             
             # Determine product type
             product_type = determine_product_type(model, category)
@@ -1317,7 +1325,7 @@ def scrape_brand_only(brand):
                     memory = mm_match.group(1) + " mm"
                 else:
                     # Try to extract from page
-                    mm_from_page = extract_memory(prod_soup, model)
+                    mm_from_page = extract_memory(prod_soup, model, prod_url)
                     if 'mm' in mm_from_page.lower():
                         memory = mm_from_page
                     else:
