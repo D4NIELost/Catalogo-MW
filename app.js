@@ -865,7 +865,7 @@ function searchProducts(query) {
         if (serviceResults.length > 0) {
             html += `<h3>🔧 Servizi (${serviceResults.length})</h3>`;
             html += serviceResults.map(s => `
-                <div class="search-result-item" onclick="selectServiceSearchResult('${s.Servizio}')">
+                <div class="search-result-item" onclick="selectServiceSearchResult('${s.Servizio.replace(/"/g, '&quot;')}')">
                     <h4>${s.Servizio}</h4>
                     <p>${s.Categoria} - ${s.Sottocategoria} - Codice: ${s.Codice}</p>
                     <p>Costo: €${s.Costo}</p>
