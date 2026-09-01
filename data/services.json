@@ -30,7 +30,7 @@
   {
     "Categoria": "Servizi Generali",
     "Sottocategoria": "Smartphone",
-    "Servizio": "PRIMO AVVIO SMARTPHONE/WATCH",
+    "Servizio": "PRIMO AVVIO SMARTPHONE",
     "Codice": 215393,
     "Costo": 19.99
   },
@@ -68,6 +68,13 @@
     "Servizio": "TRASFERIMENTO DATI OLTRE 256 GB",
     "Codice": 425292,
     "Costo": 69.99
+  },
+  {
+    "Categoria": "Servizi Generali",
+    "Sottocategoria": "Smartwatch",
+    "Servizio": "PRIMO AVVIO WATCH",
+    "Codice": 706469,
+    "Costo": 19.99
   },
   {
     "Categoria": "Servizi Generali",

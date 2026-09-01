@@ -558,7 +558,7 @@ function renderServicesView(container) {
             <h2>${category} - ${subcategory}</h2>
             <div class="button-grid">
                 ${services.map(service => 
-                    `<button class="button-item" onclick="selectService('${service.Servizio}')">
+                    `<button class="button-item" onclick="selectService('${service.Servizio.replace(/"/g, '&quot;')}')">
                         ${service.Servizio} - €${service.Costo}
                     </button>`
                 ).join('')}
