@@ -143,11 +143,11 @@ const colorMap = {
 async function loadDatabases() {
     try {
         const response = await Promise.all([
-            fetch('data/smartphone.json?v=4.5'),
-            fetch('data/smartwatch.json?v=4.5'),
-            fetch('data/tablet.json?v=4.5'),
-            fetch('data/notebook.json?v=4.5'),
-            fetch('data/services.json?v=4.5')
+            fetch('data/smartphone.json'),
+            fetch('data/smartwatch.json'),
+            fetch('data/tablet.json'),
+            fetch('data/notebook.json'),
+            fetch('data/services.json')
         ]);
 
         const [smartphone, smartwatch, tablet, notebook, services] = await Promise.all(
