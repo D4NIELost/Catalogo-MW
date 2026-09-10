@@ -131,7 +131,12 @@ const colorMap = {
     'mint green (fluororubber strap)': '#98FF98',
     'sunset gold (milanese strap)': '#FFD700',
     'white (leather strap)': '#FFFFFF',
-    'titanio': '#A9A9A9'
+    'titanio': '#A9A9A9',
+    'blueberry': '#4F86F7',
+    'burgundy': '#800020',
+    'glacier': '#E0FFFF',
+    'pistachio': '#93C572',
+    'rosa ibisco': '#F8A591'
 };
 
 // Load all databases

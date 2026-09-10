@@ -3,6 +3,7 @@ Samsung,Smartphone,Galaxy A16,128 GB,Black,411110
 Samsung,Smartphone,Galaxy A16,128 GB,Black Blue,431292
 Samsung,Smartphone,Galaxy A16,128 GB,Gray,411118
 Samsung,Smartphone,Galaxy A16,128 GB,Light Green,411112
+Samsung,Smartphone,Galaxy A17 4G,128 GB,Black,598620
 Samsung,Smartphone,Galaxy A17 5G,128 GB,Black,498231
 Samsung,Smartphone,Galaxy A17 5G,128 GB,Blu,498240
 Samsung,Smartphone,Galaxy A17 5G,128 GB,Gray,498237
@@ -39,6 +40,12 @@ Samsung,Smartphone,Galaxy S25 Ultra,256 GB,Titanium Black,412318
 Samsung,Smartphone,Galaxy S25 Ultra,256 GB,Titanium Gray,412412
 Samsung,Smartphone,Galaxy S25 Ultra,256 GB,Titanium Silverblue,412393
 Samsung,Smartphone,Galaxy S25 Ultra,256 GB,Titanium Whitesilver,412422
+Samsung,Smartphone,Galaxy S26 FE,128 GB,Graphite,597958
+Samsung,Smartphone,Galaxy S26 FE,128 GB,Blueberry,597967
+Samsung,Smartphone,Galaxy S26 FE,128 GB,Pistachio,597964
+Samsung,Smartphone,Galaxy S26 FE,256 GB,Graphite,597963
+Samsung,Smartphone,Galaxy S26 FE,256 GB,Blueberry,597972
+Samsung,Smartphone,Galaxy S26 FE,256 GB,Pistachio,597965
 Samsung,Smartphone,Galaxy S26,256 GB,Black,564055
 Samsung,Smartphone,Galaxy S26,256 GB,Cobalt Violet,564051
 Samsung,Smartphone,Galaxy S26,256 GB,Sky Blue,564053
@@ -49,6 +56,8 @@ Samsung,Smartphone,Galaxy S26,512 GB,Sky Blue,564054
 Samsung,Smartphone,Galaxy S26,512 GB,White,564050
 Samsung,Smartphone,Galaxy S26+,256 GB,Black,564046
 Samsung,Smartphone,Galaxy S26+,256 GB,Sky Blue,564044
+Samsung,Smartphone,Galaxy S26+,256 GB,Cobalt Violet,564042
+Samsung,Smartphone,Galaxy S26+,256 GB,White,564040
 Samsung,Smartphone,Galaxy S26+,512 GB,Black,564047
 Samsung,Smartphone,Galaxy S26+,512 GB,Cobalt Violet,564043
 Samsung,Smartphone,Galaxy S26+,512 GB,Sky Blue,564045
@@ -134,12 +143,6 @@ Xiaomi,Smartphone,Redmi 15C,256 GB,Black,467151
 Xiaomi,Smartphone,Redmi 15C,256 GB,GREEN,495999
 Xiaomi,Smartphone,Redmi 15C,256 GB,ORANGE,496008
 Xiaomi,Smartphone,Redmi 15C,256 GB,BLUE,496014
-Xiaomi,Smartphone,Redmi 17,128 GB,Black,595175
-Xiaomi,Smartphone,Redmi 17,128 GB,GREEN,595186
-Xiaomi,Smartphone,Redmi 17,128 GB,BLUE,595184
-Xiaomi,Smartphone,Redmi 17,256 GB,Black,595189
-Xiaomi,Smartphone,Redmi 17,256 GB,BLUE,595190
-Xiaomi,Smartphone,Redmi 17,256 GB,GREEN,595192
 Xiaomi,Smartphone,Redmi Note 15,128 GB,Black,563288
 Xiaomi,Smartphone,Redmi Note 15,128 GB,Glacier Blue,563385
 Xiaomi,Smartphone,Redmi Note 15,256 GB,Black,557247
@@ -155,6 +158,15 @@ Xiaomi,Smartphone,Redmi Note 15 Pro,256 GB,TITANIO,557262
 Xiaomi,Smartphone,Redmi Note 15 Pro 5G,256 GB,BLACK,557269
 Xiaomi,Smartphone,Redmi Note 15 Pro 5G,512 GB,BLACK,563254
 Xiaomi,Smartphone,Redmi Note 15 Pro+ 5G,256 GB,BLACK,557274
+Xiaomi,Smartphone,Redmi 17,128 GB,Black,595175
+Xiaomi,Smartphone,Redmi 17,128 GB,GREEN,595186
+Xiaomi,Smartphone,Redmi 17,128 GB,BLUE,595184
+Xiaomi,Smartphone,Redmi 17,256 GB,Black,595189
+Xiaomi,Smartphone,Redmi 17,256 GB,BLUE,595190
+Xiaomi,Smartphone,Redmi 17,256 GB,GREEN,595192
+Xiaomi,Smartphone,Redmi 17 5G,128 GB,Black,598404
+Xiaomi,Smartphone,Redmi 17 5G,128 GB,Blue,598406
+Xiaomi,Smartphone,Redmi 17 5G,128 GB,Orange,598405
 Xiaomi,Smartphone,17,512 GB,Ice Blue,565472
 Xiaomi,Smartphone,17,512 GB,Black,565448
 Xiaomi,Smartphone,17T,256 GB,Black,582785
@@ -295,3 +307,36 @@ ZTE,Smartphone,NUBIA AIR,256 GB,Black,530222
 ZTE,Smartphone,nubia Air Pro,512 GB,Black,577858
 ZTE,Smartphone,nubia Air Pro,512 GB,White,578151
 ZTE,Smartphone,nubia Neo 5 GT 5G,256 GB,Black,582706
+
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,256GB,Black,499520
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,256GB,Silver,499518
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,256GB,Glacier,499516
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,256GB,Burgundy,499517
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,512GB,Black,499515
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,512GB,Silver,499513
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,512GB,Glacier,499505
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,512GB,Burgundy,499506
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,1TB,Black,499504
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,1TB,Silver,499503
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,1TB,Glacier,499500
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,1TB,Burgundy,499501
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,2TB,Black,499499
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,2TB,Silver,499498
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,2TB,Glacier,499495
+Apple,Smartphone,PREVENDITA iPhone 18 Pro,2TB,Burgundy,499496
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,256GB,Black,499492
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,256GB,Silver,499491
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,256GB,Glacier,499489
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,256GB,Burgundy,499490
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,512GB,Black,499488
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,512GB,Silver,499487
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,512GB,Glacier,499485
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,512GB,Burgundy,499486
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,1TB,Black,499484
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,1TB,Silver,499482
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,1TB,Glacier,499480
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,1TB,Burgundy,499481
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,2TB,Black,499475
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,2TB,Silver,499474
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,2TB,Glacier,499472
+Apple,Smartphone,PREVENDITA iPhone 18 Pro Max,2TB,Burgundy,499473

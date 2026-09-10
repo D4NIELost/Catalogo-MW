@@ -34,6 +34,14 @@
   {
     "Marca": "Samsung",
     "Tipo": "Smartphone",
+    "Modello": "Galaxy A17 4G",
+    "Memoria": "128 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598620
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
     "Modello": "Galaxy A17 5G",
     "Memoria": "128 GB",
     "Colore": "Black",
@@ -322,6 +330,54 @@
   {
     "Marca": "Samsung",
     "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "128 GB",
+    "Colore": "Graphite",
+    "Codice_PIM": 597958
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "128 GB",
+    "Colore": "Blueberry",
+    "Codice_PIM": 597967
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "128 GB",
+    "Colore": "Pistachio",
+    "Codice_PIM": 597964
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "256 GB",
+    "Colore": "Graphite",
+    "Codice_PIM": 597963
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "256 GB",
+    "Colore": "Blueberry",
+    "Codice_PIM": 597972
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26 FE",
+    "Memoria": "256 GB",
+    "Colore": "Pistachio",
+    "Codice_PIM": 597965
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
     "Modello": "Galaxy S26",
     "Memoria": "256 GB",
     "Colore": "Black",
@@ -398,6 +454,22 @@
     "Memoria": "256 GB",
     "Colore": "Sky Blue",
     "Codice_PIM": 564044
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26+",
+    "Memoria": "256 GB",
+    "Colore": "Cobalt Violet",
+    "Codice_PIM": 564042
+  },
+  {
+    "Marca": "Samsung",
+    "Tipo": "Smartphone",
+    "Modello": "Galaxy S26+",
+    "Memoria": "256 GB",
+    "Colore": "White",
+    "Codice_PIM": 564040
   },
   {
     "Marca": "Samsung",
@@ -1066,54 +1138,6 @@
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "128 GB",
-    "Colore": "Black",
-    "Codice_PIM": 595175
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "128 GB",
-    "Colore": "GREEN",
-    "Codice_PIM": 595186
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "128 GB",
-    "Colore": "BLUE",
-    "Codice_PIM": 595184
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "256 GB",
-    "Colore": "Black",
-    "Codice_PIM": 595189
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "256 GB",
-    "Colore": "BLUE",
-    "Codice_PIM": 595190
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
-    "Modello": "Redmi 17",
-    "Memoria": "256 GB",
-    "Colore": "GREEN",
-    "Codice_PIM": 595192
-  },
-  {
-    "Marca": "Xiaomi",
-    "Tipo": "Smartphone",
     "Modello": "Redmi Note 15",
     "Memoria": "128 GB",
     "Colore": "Black",
@@ -1230,6 +1254,78 @@
     "Memoria": "256 GB",
     "Colore": "BLACK",
     "Codice_PIM": 557274
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "128 GB",
+    "Colore": "Black",
+    "Codice_PIM": 595175
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "128 GB",
+    "Colore": "GREEN",
+    "Codice_PIM": 595186
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "128 GB",
+    "Colore": "BLUE",
+    "Codice_PIM": 595184
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 595189
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "256 GB",
+    "Colore": "BLUE",
+    "Codice_PIM": 595190
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17",
+    "Memoria": "256 GB",
+    "Colore": "GREEN",
+    "Codice_PIM": 595192
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17 5G",
+    "Memoria": "128 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598404
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17 5G",
+    "Memoria": "128 GB",
+    "Colore": "Blue",
+    "Codice_PIM": 598406
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17 5G",
+    "Memoria": "128 GB",
+    "Colore": "Orange",
+    "Codice_PIM": 598405
   },
   {
     "Marca": "Xiaomi",
@@ -2318,5 +2414,261 @@
     "Memoria": "256 GB",
     "Colore": "Black",
     "Codice_PIM": 582706
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "256GB",
+    "Colore": "Black",
+    "Codice_PIM": 499520
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "256GB",
+    "Colore": "Silver",
+    "Codice_PIM": 499518
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "256GB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499516
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "256GB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499517
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "512GB",
+    "Colore": "Black",
+    "Codice_PIM": 499515
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "512GB",
+    "Colore": "Silver",
+    "Codice_PIM": 499513
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "512GB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499505
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "512GB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499506
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "1TB",
+    "Colore": "Black",
+    "Codice_PIM": 499504
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "1TB",
+    "Colore": "Silver",
+    "Codice_PIM": 499503
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "1TB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499500
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "1TB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499501
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "2TB",
+    "Colore": "Black",
+    "Codice_PIM": 499499
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "2TB",
+    "Colore": "Silver",
+    "Codice_PIM": 499498
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "2TB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499495
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro",
+    "Memoria": "2TB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499496
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "256GB",
+    "Colore": "Black",
+    "Codice_PIM": 499492
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "256GB",
+    "Colore": "Silver",
+    "Codice_PIM": 499491
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "256GB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499489
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "256GB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499490
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "512GB",
+    "Colore": "Black",
+    "Codice_PIM": 499488
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "512GB",
+    "Colore": "Silver",
+    "Codice_PIM": 499487
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "512GB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499485
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "512GB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499486
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "1TB",
+    "Colore": "Black",
+    "Codice_PIM": 499484
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "1TB",
+    "Colore": "Silver",
+    "Codice_PIM": 499482
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "1TB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499480
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "1TB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499481
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "2TB",
+    "Colore": "Black",
+    "Codice_PIM": 499475
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "2TB",
+    "Colore": "Silver",
+    "Codice_PIM": 499474
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "2TB",
+    "Colore": "Glacier",
+    "Codice_PIM": 499472
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartphone",
+    "Modello": "PREVENDITA iPhone 18 Pro Max",
+    "Memoria": "2TB",
+    "Colore": "Burgundy",
+    "Codice_PIM": 499473
   }
 ]
