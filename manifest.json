@@ -4,8 +4,8 @@
   "description": "Catalogo prodotti Mediaworld con generazione codici a barre",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#1a3a5e",
-  "theme_color": "#1a3a5e",
+  "background_color": "#de2427",
+  "theme_color": "#de2427",
   "orientation": "portrait",
   "icons": [
     {
