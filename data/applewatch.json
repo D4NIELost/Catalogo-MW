@@ -1,0 +1,942 @@
+[
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 40,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia SM)",
+    "Codice_PIM": 594752
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 40,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia ML)",
+    "Codice_PIM": 594753
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 40,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia SM)",
+    "Codice_PIM": 594754
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 40,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia ML)",
+    "Codice_PIM": 594755
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 44,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia SM)",
+    "Codice_PIM": 594756
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 44,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia ML)",
+    "Codice_PIM": 594757
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 44,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia SM)",
+    "Codice_PIM": 594758
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 44,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia ML)",
+    "Codice_PIM": 594759
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 40,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia SM)",
+    "Codice_PIM": 594760
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 40,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia ML)",
+    "Codice_PIM": 594761
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 40,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia SM)",
+    "Codice_PIM": 594762
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 40,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia ML)",
+    "Codice_PIM": 594763
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 44,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia SM)",
+    "Codice_PIM": 594764
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 44,
+    "Colore": "Galassia (Cinturino Sport Galassia Taglia ML)",
+    "Codice_PIM": 594765
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 44,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia SM)",
+    "Codice_PIM": 594766
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "SE 3",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 44,
+    "Colore": "Mezzanotte (Cinturino Sport Mezzanotte Taglia ML)",
+    "Codice_PIM": 594767
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 194657
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 194658
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Nero (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 194659
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Nero (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 194660
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia SM)",
+    "Codice_PIM": 194661
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia ML)",
+    "Codice_PIM": 194662
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia SM)",
+    "Codice_PIM": 194663
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia ML)",
+    "Codice_PIM": 194664
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 194665
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 194666
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Nero (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 194667
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Nero (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 394535
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia SM)",
+    "Codice_PIM": 394536
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia ML)",
+    "Codice_PIM": 394537
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia SM)",
+    "Codice_PIM": 394538
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia ML)",
+    "Codice_PIM": 394539
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 394540
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 394541
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Nero (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 394542
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Nero (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 394543
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia SM)",
+    "Codice_PIM": 498637
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia ML)",
+    "Codice_PIM": 498638
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia SM)",
+    "Codice_PIM": 498639
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia ML)",
+    "Codice_PIM": 498640
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 498654
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Grigio Siderale (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 498662
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Nero (Cinturino Sport Nero Taglia SM)",
+    "Codice_PIM": 498665
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Nero (Cinturino Sport Nero Taglia ML)",
+    "Codice_PIM": 498666
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia SM)",
+    "Codice_PIM": 498668
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Grigio Chiaro (Cinturino Sport Grigio Taglia ML)",
+    "Codice_PIM": 498669
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia SM)",
+    "Codice_PIM": 498670
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Marrone Scuro / Basalto (Cinturino Sport Scuro Taglia ML)",
+    "Codice_PIM": 498672
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Naturale (Cinturino Titanio/Sport Taglia SM)",
+    "Codice_PIM": 498674
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Naturale (Cinturino Titanio/Sport Taglia ML)",
+    "Codice_PIM": 498676
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Naturale (Cinturino Metallo/Maglia Naturale)",
+    "Codice_PIM": 498681
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Oro Rosa (Cinturino Oro Rosa Taglia SM)",
+    "Codice_PIM": 594709
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Oro Rosa (Cinturino Oro Rosa Taglia ML)",
+    "Codice_PIM": 594710
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Oro Rosa (Cinturino Maglia Oro Rosa)",
+    "Codice_PIM": 594711
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Naturale (Cinturino Naturale Taglia SM)",
+    "Codice_PIM": 594712
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Naturale (Cinturino Naturale Taglia ML)",
+    "Codice_PIM": 594713
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Naturale (Cinturino Maglia Naturale Small)",
+    "Codice_PIM": 594714
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Naturale (Cinturino Maglia Naturale Medium/Large)",
+    "Codice_PIM": 594715
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Oro Rosa (Cinturino Oro Rosa Taglia SM)",
+    "Codice_PIM": 594716
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Oro Rosa (Cinturino Oro Rosa Taglia ML)",
+    "Codice_PIM": 594717
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Oro Rosa (Cinturino Maglia Oro Rosa Small)",
+    "Codice_PIM": 594718
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Oro Rosa (Cinturino Maglia Oro Rosa Medium/Large)",
+    "Codice_PIM": 594719
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Bianco / Pebble (Cinturino Bianco Taglia SM)",
+    "Codice_PIM": 594720
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Bianco / Pebble (Cinturino Bianco Taglia ML)",
+    "Codice_PIM": 594721
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Blu Ceramica (Cinturino Blu Taglia SM)",
+    "Codice_PIM": 594722
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Blu Ceramica (Cinturino Blu Taglia ML)",
+    "Codice_PIM": 594723
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Bianco / Pebble (Cinturino Bianco Taglia SM)",
+    "Codice_PIM": 594724
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Bianco / Pebble (Cinturino Bianco Taglia ML)",
+    "Codice_PIM": 594725
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Blu Ceramica (Cinturino Blu Taglia SM)",
+    "Codice_PIM": 594726
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Ceramica",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Blu Ceramica (Cinturino Blu Taglia ML)",
+    "Codice_PIM": 594727
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone Small)",
+    "Codice_PIM": 594728
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 46,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone Medium/Large)",
+    "Codice_PIM": 594729
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "GPS",
+    "mm": 42,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone)",
+    "Codice_PIM": 594730
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone Small)",
+    "Codice_PIM": 594731
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 46,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone Medium/Large)",
+    "Codice_PIM": 594732
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Series 12",
+    "Materiale": "Alluminio",
+    "Connettività": "Cellular",
+    "mm": 42,
+    "Colore": "Marrone Scuro (Cinturino Maglia Marrone)",
+    "Codice_PIM": 594733
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Loop in maglia Milanese in Titanio Naturale - Small)",
+    "Codice_PIM": 594734
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Loop in maglia Milanese in Titanio Naturale - Medium)",
+    "Codice_PIM": 594735
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Loop maglia Milanese in Titanio Naturale - Large)",
+    "Codice_PIM": 594736
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Cinturino Ocean grigio traslucido)",
+    "Codice_PIM": 594737
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Cinturino Alpine Loop color duna - Small)",
+    "Codice_PIM": 594738
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Alpine Loop color duna - Medium)",
+    "Codice_PIM": 594739
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Alpine Loop color duna - Large)",
+    "Codice_PIM": 594740
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Trail Loop color sabbia - S/M)",
+    "Codice_PIM": 594741
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Naturale (Trail Loop color sabbia - M/L)",
+    "Codice_PIM": 594742
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Loop maglia Milanese in Titanio Nero - Small)",
+    "Codice_PIM": 594743
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Loop maglia Milanese in Titanio Nero - Medium)",
+    "Codice_PIM": 594744
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Loop maglia Milanese in Titanio Nero - Large)",
+    "Codice_PIM": 594745
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Cinturino Ocean Nero traslucido)",
+    "Codice_PIM": 594746
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Alpine Loop color borgogna - Small)",
+    "Codice_PIM": 594747
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Alpine Loop color borgogna - Medium)",
+    "Codice_PIM": 594748
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Alpine Loop color borgogna - Large)",
+    "Codice_PIM": 594749
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Trail Loop color borgogna - S/M)",
+    "Codice_PIM": 594750
+  },
+  {
+    "Marca": "Apple",
+    "Tipo": "Smartwatch",
+    "Modello": "Ultra 4",
+    "Materiale": "Titanio",
+    "Connettività": "Cellular",
+    "mm": 49,
+    "Colore": "Nero (Trail Loop color borgogna - M/L)",
+    "Codice_PIM": 594751
+  }
+]

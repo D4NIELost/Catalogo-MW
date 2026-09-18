@@ -11,7 +11,10 @@ const state = {
     servicesCategory: null,
     servicesSubcategory: null,
     selectedService: null,
-    databases: {}
+    databases: {},
+    // Apple Watch specific states
+    selectedMaterial: null,
+    selectedConnectivity: null
 };
 
 // Color mapping (same as Python version)
@@ -136,7 +139,66 @@ const colorMap = {
     'burgundy': '#800020',
     'glacier': '#E0FFFF',
     'pistachio': '#93C572',
-    'rosa ibisco': '#F8A591'
+    'rosa ibisco': '#F8A591',
+    'bianco / pebble': '#FFF8F0',
+    'blu ceramica': '#4169E1',
+    'galassia': '#F5F5DC',
+    'grigio chiaro': '#D3D3D3',
+    'grigio siderale': '#708090',
+    'marrone scuro': '#8B4513',
+    'marrone scuro / basalto': '#5C4033',
+    'mezzanotte': '#1A1A1A',
+    'naturale': '#B8B8B8',
+    'oro rosa': '#B76E79',
+    'bianco / pebble (cinturino bianco taglia ml)': '#FFF8F0',
+    'bianco / pebble (cinturino bianco taglia sm)': '#FFF8F0',
+    'blu ceramica (cinturino blu taglia ml)': '#4169E1',
+    'blu ceramica (cinturino blu taglia sm)': '#4169E1',
+    'galassia (cinturino sport galassia taglia ml)': '#F5F5DC',
+    'galassia (cinturino sport galassia taglia sm)': '#F5F5DC',
+    'grigio chiaro (cinturino sport grigio taglia ml)': '#D3D3D3',
+    'grigio chiaro (cinturino sport grigio taglia sm)': '#D3D3D3',
+    'grigio siderale (cinturino sport nero taglia ml)': '#708090',
+    'grigio siderale (cinturino sport nero taglia sm)': '#708090',
+    'marrone scuro (cinturino maglia marrone medium/large)': '#8B4513',
+    'marrone scuro (cinturino maglia marrone small)': '#8B4513',
+    'marrone scuro (cinturino maglia marrone)': '#8B4513',
+    'marrone scuro / basalto (cinturino sport scuro taglia ml)': '#5C4033',
+    'marrone scuro / basalto (cinturino sport scuro taglia sm)': '#5C4033',
+    'mezzanotte (cinturino sport mezzanotte taglia ml)': '#1A1A1A',
+    'mezzanotte (cinturino sport mezzanotte taglia sm)': '#1A1A1A',
+    'naturale (alpine loop color duna - large)': '#B8B8B8',
+    'naturale (alpine loop color duna - medium)': '#B8B8B8',
+    'naturale (cinturino alpine loop color duna - small)': '#B8B8B8',
+    'naturale (cinturino maglia naturale medium/large)': '#B8B8B8',
+    'naturale (cinturino maglia naturale small)': '#B8B8B8',
+    'naturale (cinturino metallo/maglia naturale)': '#B8B8B8',
+    'naturale (cinturino naturale taglia ml)': '#B8B8B8',
+    'naturale (cinturino naturale taglia sm)': '#B8B8B8',
+    'naturale (cinturino ocean grigio traslucido)': '#B8B8B8',
+    'naturale (cinturino titanio/sport taglia ml)': '#B8B8B8',
+    'naturale (cinturino titanio/sport taglia sm)': '#B8B8B8',
+    'naturale (loop in maglia milanese in titanio naturale - medium)': '#B8B8B8',
+    'naturale (loop in maglia milanese in titanio naturale - small)': '#B8B8B8',
+    'naturale (loop maglia milanese in titanio naturale - large)': '#B8B8B8',
+    'naturale (trail loop color sabbia - m/l)': '#B8B8B8',
+    'naturale (trail loop color sabbia - s/m)': '#B8B8B8',
+    'nero (alpine loop color borgogna - large)': '#000000',
+    'nero (alpine loop color borgogna - medium)': '#000000',
+    'nero (alpine loop color borgogna - small)': '#000000',
+    'nero (cinturino ocean nero traslucido)': '#000000',
+    'nero (cinturino sport nero taglia ml)': '#000000',
+    'nero (cinturino sport nero taglia sm)': '#000000',
+    'nero (loop maglia milanese in titanio nero - large)': '#000000',
+    'nero (loop maglia milanese in titanio nero - medium)': '#000000',
+    'nero (loop maglia milanese in titanio nero - small)': '#000000',
+    'nero (trail loop color borgogna - m/l)': '#000000',
+    'nero (trail loop color borgogna - s/m)': '#000000',
+    'oro rosa (cinturino maglia oro rosa medium/large)': '#B76E79',
+    'oro rosa (cinturino maglia oro rosa small)': '#B76E79',
+    'oro rosa (cinturino maglia oro rosa)': '#B76E79',
+    'oro rosa (cinturino oro rosa taglia ml)': '#B76E79',
+    'oro rosa (cinturino oro rosa taglia sm)': '#B76E79'
 };
 
 // Load all databases
@@ -145,18 +207,20 @@ async function loadDatabases() {
         const response = await Promise.all([
             fetch('data/smartphone.json'),
             fetch('data/smartwatch.json'),
+            fetch('data/applewatch.json'),
             fetch('data/tablet.json'),
             fetch('data/notebook.json'),
             fetch('data/services.json')
         ]);
 
-        const [smartphone, smartwatch, tablet, notebook, services] = await Promise.all(
+        const [smartphone, smartwatch, applewatch, tablet, notebook, services] = await Promise.all(
             response.map(r => r.json())
         );
 
         state.databases = {
             smartphone,
             smartwatch,
+            applewatch,
             tablet,
             notebook,
             services
@@ -165,6 +229,7 @@ async function loadDatabases() {
         console.log('Databases loaded:', {
             smartphone: smartphone.length,
             smartwatch: smartwatch.length,
+            applewatch: applewatch.length,
             tablet: tablet.length,
             notebook: notebook.length,
             services: services.length
@@ -224,6 +289,7 @@ function renderBrandsView(container) {
     const allProducts = [
         ...state.databases.smartphone,
         ...state.databases.smartwatch,
+        ...state.databases.applewatch,
         ...state.databases.tablet,
         ...state.databases.notebook
     ];
@@ -254,10 +320,11 @@ function renderBrandsView(container) {
 function renderCategoriesView(container) {
     const brand = state.selectedBrand;
     const categories = [];
-    
+
     // Check which databases have this brand
     if (state.databases.smartphone.some(p => p.Marca === brand)) categories.push('Smartphone');
     if (state.databases.smartwatch.some(p => p.Marca === brand)) categories.push('Smartwatch');
+    if (state.databases.applewatch.some(p => p.Marca === brand)) categories.push('Apple Watch');
     if (state.databases.tablet.some(p => p.Marca === brand)) categories.push('Tablet');
     if (state.databases.notebook.some(p => p.Marca === brand)) categories.push('Notebook');
     
@@ -271,6 +338,7 @@ function renderCategoriesView(container) {
     const categoryEmojis = {
         'Smartphone': '📱',
         'Smartwatch': '⌚',
+        'Apple Watch': '⌚',
         'Tablet': '📱',
         'Notebook': '💻'
     };
@@ -293,10 +361,11 @@ function renderCategoriesView(container) {
 function renderModelsView(container) {
     const brand = state.selectedBrand;
     const category = state.selectedCategory;
-    
+
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
+    else if (category === 'Apple Watch') database = state.databases.applewatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
     
@@ -305,6 +374,7 @@ function renderModelsView(container) {
     const categoryEmojis = {
         'Smartphone': '📲',
         'Smartwatch': '⌚',
+        'Apple Watch': '⌚',
         'Tablet': '📱',
         'Notebook': '💻'
     };
@@ -328,15 +398,139 @@ function renderMemoriesView(container) {
     const category = state.selectedCategory;
     const brand = state.selectedBrand;
     const model = state.selectedModel;
-    
+
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
+    else if (category === 'Apple Watch') database = state.databases.applewatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
-    
+
     const products = database.filter(p => p.Marca === brand && p.Modello === model);
-    
+
+    // Special handling for Apple Watch - multi-step selection
+    if (category === 'Apple Watch') {
+        // Step 1: Select Material
+        if (!state.selectedMaterial) {
+            const materials = [...new Set(products.map(p => p.Materiale))]
+                .filter(m => m && m.toString().trim() && m.toString().trim().toLowerCase() !== 'n/n');
+
+            if (materials.length <= 1) {
+                state.selectedMaterial = materials.length === 1 ? materials[0] : 'n/n';
+                renderMainContent();
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="content-section">
+                    <h2>Modello: ${model}</h2>
+                    <p><strong>Seleziona Materiale:</strong></p>
+                    <div class="button-grid" id="materialSelection">
+                        ${materials.map((material, idx) =>
+                            `<button class="button-item" data-material="${String(material).replace(/"/g, '&quot;')}" data-idx="${idx}">
+                                ⌚ ${material}
+                            </button>`
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+
+            // Use event delegation for material selection
+            const materialGrid = container.querySelector('#materialSelection');
+            if (materialGrid) {
+                materialGrid.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('button-item')) {
+                        state.selectedMaterial = e.target.dataset.material;
+                        renderMainContent();
+                    }
+                });
+            }
+            return;
+        }
+
+        // Step 2: Select Connectivity
+        if (!state.selectedConnectivity) {
+            const filteredByMaterial = products.filter(p => p.Materiale === state.selectedMaterial);
+            const connectivities = [...new Set(filteredByMaterial.map(p => p.Connettività))]
+                .filter(c => c && c.toString().trim() && c.toString().trim().toLowerCase() !== 'n/n');
+
+            if (connectivities.length <= 1) {
+                state.selectedConnectivity = connectivities.length === 1 ? connectivities[0] : 'n/n';
+                renderMainContent();
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="content-section">
+                    <h2>Modello: ${model}</h2>
+                    <p><strong>Materiale:</strong> ${state.selectedMaterial}</p>
+                    <p><strong>Seleziona Connettività:</strong></p>
+                    <div class="button-grid" id="connectivitySelection">
+                        ${connectivities.map((conn, idx) =>
+                            `<button class="button-item" data-connectivity="${String(conn).replace(/"/g, '&quot;')}" data-idx="${idx}">
+                                📡 ${conn}
+                            </button>`
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+
+            // Use event delegation for connectivity selection
+            const connectivityGrid = container.querySelector('#connectivitySelection');
+            if (connectivityGrid) {
+                connectivityGrid.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('button-item')) {
+                        state.selectedConnectivity = e.target.dataset.connectivity;
+                        renderMainContent();
+                    }
+                });
+            }
+            return;
+        }
+
+        // Step 3: Select mm (this will use the standard flow)
+        const filteredByMaterialAndConnectivity = products.filter(
+            p => p.Materiale === state.selectedMaterial && p.Connettività === state.selectedConnectivity
+        );
+        const sizes = [...new Set(filteredByMaterialAndConnectivity.map(p => p.mm))]
+            .filter(s => s && s.toString().trim() && s.toString().trim().toLowerCase() !== 'n/n');
+
+        if (sizes.length <= 1) {
+            state.selectedMemory = sizes.length === 1 ? sizes[0] : 'n/n';
+            state.modelHasSingleMemory = true;
+            renderMainContent();
+            return;
+        }
+
+        container.innerHTML = `
+            <div class="content-section">
+                <h2>Modello: ${model}</h2>
+                <p><strong>Materiale:</strong> ${state.selectedMaterial}</p>
+                <p><strong>Connettività:</strong> ${state.selectedConnectivity}</p>
+                <p><strong>Seleziona Dimensioni:</strong></p>
+                <div class="button-grid" id="sizeSelection">
+                    ${sizes.map((size, idx) =>
+                        `<button class="button-item" data-spec="${String(size).replace(/"/g, '&quot;')}" data-idx="${idx}">
+                            ⌚ ${size} mm
+                        </button>`
+                    ).join('')}
+                </div>
+            </div>
+        `;
+
+        // Use event delegation for size selection
+        const sizeGrid = container.querySelector('#sizeSelection');
+        if (sizeGrid) {
+            sizeGrid.addEventListener('click', (e) => {
+                if (e.target.classList.contains('button-item')) {
+                    selectMemory(e.target.dataset.spec);
+                }
+            });
+        }
+        return;
+    }
+
+    // Standard flow for other categories
     let specColumn, specLabel, specEmoji;
     if (category === 'Smartwatch') {
         specColumn = 'mm';
@@ -351,10 +545,10 @@ function renderMemoriesView(container) {
         specLabel = 'Memoria';
         specEmoji = '💾';
     }
-    
+
     const specs = [...new Set(products.map(p => p[specColumn]))]
         .filter(s => s && s.toString().trim() && s.toString().trim().toLowerCase() !== 'n/n');
-    
+
     // If no valid specs or only one, skip to colors
     if (specs.length <= 1) {
         state.selectedMemory = specs.length === 1 ? specs[0] : 'n/n';
@@ -362,12 +556,12 @@ function renderMemoriesView(container) {
         renderMainContent();
         return;
     }
-    
+
     container.innerHTML = `
         <div class="content-section">
             <h2>Modello: ${model}</h2>
             <div class="button-grid">
-                ${specs.map((spec, idx) => 
+                ${specs.map((spec, idx) =>
                     `<button class="button-item" data-spec="${spec.replace(/"/g, '&quot;')}" data-idx="${idx}">
                         ${specEmoji} ${spec}
                     </button>`
@@ -375,7 +569,7 @@ function renderMemoriesView(container) {
             </div>
         </div>
     `;
-    
+
     // Add event listeners to buttons
     container.querySelectorAll('.button-item').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -389,25 +583,43 @@ function renderColorsView(container) {
     const category = state.selectedCategory;
     const brand = state.selectedBrand;
     const model = state.selectedModel;
-    
+
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
+    else if (category === 'Apple Watch') database = state.databases.applewatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
-    
+
     let products = database.filter(p => p.Marca === brand && p.Modello === model);
-    
+
     // Filter by memory/pollici/mm if selected
     let filterColumn;
-    if (category === 'Smartwatch') filterColumn = 'mm';
+    if (category === 'Smartwatch' || category === 'Apple Watch') filterColumn = 'mm';
     else if (category === 'Notebook') filterColumn = 'pollici';
     else filterColumn = 'Memoria';
-    
+
     if (state.selectedMemory && state.selectedMemory !== 'n/n') {
-        products = products.filter(p => p[filterColumn] === state.selectedMemory);
+        products = products.filter(p => String(p[filterColumn]) === String(state.selectedMemory));
     }
-    
+
+    // Additional filters for Apple Watch
+    if (category === 'Apple Watch') {
+        if (state.selectedMaterial && state.selectedMaterial !== 'n/n') {
+            products = products.filter(p => String(p.Materiale) === String(state.selectedMaterial));
+        }
+        if (state.selectedConnectivity && state.selectedConnectivity !== 'n/n') {
+            products = products.filter(p => String(p.Connettività) === String(state.selectedConnectivity));
+        }
+    }
+
+    // Check if products array is empty after filtering
+    if (products.length === 0) {
+        console.error('No products found after filtering for', category, brand, model);
+        container.innerHTML = '<p class="error">Nessun prodotto trovato con le selezioni correnti</p>';
+        return;
+    }
+
     // For notebook, skip color selection
     if (category === 'Notebook') {
         state.selectedVariant = products[0];
@@ -415,7 +627,7 @@ function renderColorsView(container) {
         renderMainContent();
         return;
     }
-    
+
     // Check if color column exists
     if (!products[0].hasOwnProperty('Colore')) {
         state.selectedVariant = products[0];
@@ -437,14 +649,18 @@ function renderColorsView(container) {
     container.innerHTML = `
         <div class="content-section">
             <h2>Modello: ${model}</h2>
-            ${state.selectedMemory && state.selectedMemory !== 'n/n' ? 
-                `<p><strong>${category === 'Smartwatch' || category === 'Notebook' ? 'Dimensioni' : 'Memoria'}:</strong> ${state.selectedMemory}</p>` : ''}
-            <div class="color-grid">
+            ${category === 'Apple Watch' && state.selectedMaterial && state.selectedMaterial !== 'n/n' ?
+                `<p><strong>Materiale:</strong> ${state.selectedMaterial}</p>` : ''}
+            ${category === 'Apple Watch' && state.selectedConnectivity && state.selectedConnectivity !== 'n/n' ?
+                `<p><strong>Connettività:</strong> ${state.selectedConnectivity}</p>` : ''}
+            ${state.selectedMemory && state.selectedMemory !== 'n/n' ?
+                `<p><strong>${category === 'Smartwatch' || category === 'Apple Watch' || category === 'Notebook' ? 'Dimensioni' : 'Memoria'}:</strong> ${state.selectedMemory}</p>` : ''}
+            <div class="color-grid" id="colorSelection">
                 ${colors.map(color => {
                     const colorLower = color.toString().toLowerCase().trim();
                     const bgColor = colorMap[colorLower] || '#cccccc';
                     return `
-                        <div class="color-item" data-color="${color.replace(/"/g, '&quot;')}">
+                        <div class="color-item" data-color="${String(color).replace(/"/g, '&quot;')}">
                             <div class="color-swatch" style="background-color: ${bgColor}"></div>
                             <span class="color-name">${color}</span>
                         </div>
@@ -453,29 +669,35 @@ function renderColorsView(container) {
             </div>
         </div>
     `;
-    
-    // Add event listeners to color items
-    container.querySelectorAll('.color-item').forEach(item => {
-        item.addEventListener('click', () => {
-            selectColor(item.dataset.color);
+
+    // Add event delegation for color selection
+    const colorGrid = container.querySelector('#colorSelection');
+    if (colorGrid) {
+        colorGrid.addEventListener('click', (e) => {
+            const colorItem = e.target.closest('.color-item');
+            if (colorItem) {
+                selectColor(colorItem.dataset.color);
+            }
         });
-    });
+    }
 }
 
 // Render variant view with barcode
 function renderVariantView(container) {
     const variant = state.selectedVariant;
     const category = state.selectedCategory;
-    
+
     let pimCode = variant.Codice_PIM ? variant.Codice_PIM.toString().replace(/[.,]/g, '') : '';
-    
+
     container.innerHTML = `
         <div class="content-section barcode-section">
             <h2>Codice a Barre</h2>
             <div class="product-details">
                 <p><strong>Marca:</strong> ${variant.Marca}</p>
                 <p><strong>Modello:</strong> ${variant.Modello}</p>
-                ${category !== 'Tablet' ? `<p><strong>${category === 'Smartwatch' ? 'Dimensioni' : 'Memoria'}:</strong> ${state.selectedMemory || 'N/A'}</p>` : ''}
+                ${category === 'Apple Watch' && state.selectedMaterial && state.selectedMaterial !== 'n/n' ? `<p><strong>Materiale:</strong> ${state.selectedMaterial}</p>` : ''}
+                ${category === 'Apple Watch' && state.selectedConnectivity && state.selectedConnectivity !== 'n/n' ? `<p><strong>Connettività:</strong> ${state.selectedConnectivity}</p>` : ''}
+                ${category !== 'Tablet' ? `<p><strong>${category === 'Smartwatch' || category === 'Apple Watch' || category === 'Notebook' ? 'Dimensioni' : 'Memoria'}:</strong> ${state.selectedMemory || 'N/A'}</p>` : ''}
                 ${variant.Colore && variant.Colore !== 'n/n' ? `<p><strong>Colore:</strong> ${variant.Colore}</p>` : ''}
                 <p><strong>Codice PIM:</strong> ${variant.Codice_PIM}</p>
             </div>
@@ -640,23 +862,34 @@ function selectColor(color) {
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
+    else if (category === 'Apple Watch') database = state.databases.applewatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
     
-    let products = database.filter(p => 
-        p.Marca === state.selectedBrand && 
+    let products = database.filter(p =>
+        p.Marca === state.selectedBrand &&
         p.Modello === state.selectedModel &&
-        p.Colore === color
+        String(p.Colore) === String(color)
     );
     
     // Filter by memory if selected
     let filterColumn;
-    if (category === 'Smartwatch') filterColumn = 'mm';
+    if (category === 'Smartwatch' || category === 'Apple Watch') filterColumn = 'mm';
     else if (category === 'Notebook') filterColumn = 'pollici';
     else filterColumn = 'Memoria';
-    
+
     if (state.selectedMemory && state.selectedMemory !== 'n/n') {
-        products = products.filter(p => p[filterColumn] === state.selectedMemory);
+        products = products.filter(p => String(p[filterColumn]) === String(state.selectedMemory));
+    }
+
+    // Additional filters for Apple Watch
+    if (category === 'Apple Watch') {
+        if (state.selectedMaterial && state.selectedMaterial !== 'n/n') {
+            products = products.filter(p => String(p.Materiale) === String(state.selectedMaterial));
+        }
+        if (state.selectedConnectivity && state.selectedConnectivity !== 'n/n') {
+            products = products.filter(p => String(p.Connettività) === String(state.selectedConnectivity));
+        }
     }
     
     state.selectedVariant = products[0];
@@ -692,6 +925,76 @@ function goBack() {
                 state.selectedMemory = null;
             }
         }
+    } else if (state.selectedCategory === 'Apple Watch') {
+        // Apple Watch: handle multi-step navigation with auto-skipped steps
+        // First check if we have any selections - if not, go back to categories
+        if (!state.selectedModel && !state.selectedMemory && !state.selectedConnectivity && !state.selectedMaterial) {
+            state.selectedCategory = null;
+            state.modelHasSingleMemory = false;
+            state.selectedMaterial = null;
+            state.selectedConnectivity = null;
+        } else {
+            // We need to determine which step was actually shown to the user
+            // by checking what would be shown in renderMemoriesView
+        const brand = state.selectedBrand;
+        const model = state.selectedModel;
+        const database = state.databases.applewatch;
+        const products = database.filter(p => p.Marca === brand && p.Modello === model);
+
+        // Check which steps have multiple options (thus were shown to user)
+        const materials = [...new Set(products.map(p => p.Materiale))]
+            .filter(m => m && m.toString().trim() && m.toString().trim().toLowerCase() !== 'n/n');
+        const materialsShown = materials.length > 1;
+
+        let filteredByMaterial = products;
+        if (state.selectedMaterial && state.selectedMaterial !== 'n/n') {
+            filteredByMaterial = products.filter(p => p.Materiale === state.selectedMaterial);
+        }
+
+        const connectivities = [...new Set(filteredByMaterial.map(p => p.Connettività))]
+            .filter(c => c && c.toString().trim() && c.toString().trim().toLowerCase() !== 'n/n');
+        const connectivitiesShown = connectivities.length > 1;
+
+        let filteredByMaterialAndConnectivity = filteredByMaterial;
+        if (state.selectedConnectivity && state.selectedConnectivity !== 'n/n') {
+            filteredByMaterialAndConnectivity = filteredByMaterial.filter(p => p.Connettività === state.selectedConnectivity);
+        }
+
+        const sizes = [...new Set(filteredByMaterialAndConnectivity.map(p => p.mm))]
+            .filter(s => s && s.toString().trim() && s.toString().trim().toLowerCase() !== 'n/n');
+        const sizesShown = sizes.length > 1;
+
+        // Navigate back based on which steps were actually shown
+        if (state.selectedMemory && sizesShown) {
+            // User selected from size selection (sizes were shown)
+            state.selectedMemory = null;
+        } else if (state.selectedMemory && !sizesShown && connectivitiesShown) {
+            // Sizes were auto-skipped, but connectivity was shown - go back to connectivity
+            state.selectedMemory = null;
+            state.selectedConnectivity = null;
+        } else if (state.selectedMemory && !sizesShown && !connectivitiesShown && materialsShown) {
+            // Both sizes and connectivity were auto-skipped, but material was shown - go back to material
+            state.selectedMemory = null;
+            state.selectedConnectivity = null;
+            state.selectedMaterial = null;
+        } else if (state.selectedConnectivity && connectivitiesShown) {
+            // User selected from connectivity selection
+            state.selectedConnectivity = null;
+        } else if (state.selectedConnectivity && !connectivitiesShown && materialsShown) {
+            // Connectivity was auto-skipped, but material was shown - go back to material
+            state.selectedConnectivity = null;
+            state.selectedMaterial = null;
+        } else if (state.selectedMaterial && materialsShown) {
+            // User selected from material selection
+            state.selectedMaterial = null;
+        } else if (state.selectedModel) {
+            // No Apple Watch-specific selections active, go back to models list
+            state.selectedMemory = null;
+            state.selectedConnectivity = null;
+            state.selectedMaterial = null;
+            state.selectedModel = null;
+        }
+        }
     } else if (state.selectedMemory) {
         if (state.modelHasSingleMemory) {
             state.selectedMemory = null;
@@ -702,12 +1005,18 @@ function goBack() {
     } else if (state.selectedModel) {
         state.selectedModel = null;
         state.modelHasSingleMemory = false;
+        state.selectedMaterial = null;
+        state.selectedConnectivity = null;
     } else if (state.selectedCategory) {
         state.selectedCategory = null;
         state.modelHasSingleMemory = false;
+        state.selectedMaterial = null;
+        state.selectedConnectivity = null;
     } else if (state.selectedBrand) {
         state.selectedBrand = null;
         state.modelHasSingleMemory = false;
+        state.selectedMaterial = null;
+        state.selectedConnectivity = null;
     }
     renderMainContent();
 }
@@ -743,6 +1052,8 @@ function goHome() {
     state.selectedVariant = null;
     state.modelHasSingleMemory = false;
     state.skippedColorSelection = false;
+    state.selectedMaterial = null;
+    state.selectedConnectivity = null;
     state.servicesCategory = null;
     state.servicesSubcategory = null;
     state.selectedService = null;
@@ -826,6 +1137,7 @@ function searchProducts(query) {
     const allProducts = [
         ...state.databases.smartphone.map(p => ({...p, category: 'Smartphone', type: 'device'})),
         ...state.databases.smartwatch.map(p => ({...p, category: 'Smartwatch', type: 'device'})),
+        ...state.databases.applewatch.map(p => ({...p, category: 'Apple Watch', type: 'device'})),
         ...state.databases.tablet.map(p => ({...p, category: 'Tablet', type: 'device'})),
         ...state.databases.notebook.map(p => ({...p, category: 'Notebook', type: 'device'}))
     ];
@@ -856,12 +1168,16 @@ function searchProducts(query) {
             html += phoneResults.map(p => {
                 const color = p.Colore && p.Colore !== 'n/n' ? p.Colore : '';
                 const memory = p.Memoria && p.Memoria !== 'n/n' ? p.Memoria : (p.mm && p.mm !== 'n/n' ? p.mm : (p.pollici && p.pollici !== 'n/n' ? p.pollici : ''));
+                const material = p.Materiale && p.Materiale !== 'n/n' ? p.Materiale : '';
+                const connectivity = p.Connettività && p.Connettività !== 'n/n' ? p.Connettività : '';
                 return `
                     <div class="search-result-item" onclick="selectSearchResult('${p.Marca}', '${p.category}', '${p.Modello}', '${p.Codice_PIM}')">
                         <h4>${p.Marca} ${p.Modello}</h4>
                         <p>${p.category} - PIM: ${p.Codice_PIM}</p>
+                        ${material ? `<p class="search-color">Materiale: ${material}</p>` : ''}
+                        ${connectivity ? `<p class="search-color">Connettività: ${connectivity}</p>` : ''}
                         ${color ? `<p class="search-color">Colore: ${color}</p>` : ''}
-                        ${memory ? `<p class="search-memory">${p.category === 'Smartwatch' || p.category === 'Notebook' ? 'Dimensioni' : 'Memoria'}: ${memory}</p>` : ''}
+                        ${memory ? `<p class="search-memory">${p.category === 'Smartwatch' || p.category === 'Apple Watch' || p.category === 'Notebook' ? 'Dimensioni' : 'Memoria'}: ${memory}</p>` : ''}
                     </div>
                 `;
             }).join('');
@@ -891,27 +1207,38 @@ function selectSearchResult(brand, category, model, pim) {
         document.getElementById('navPhones').classList.add('active');
         document.getElementById('navServices').classList.remove('active');
     }
-    
+
     state.selectedBrand = brand;
     state.selectedCategory = category;
     state.selectedModel = model;
-    
+
     // Find the variant and select it
     let database;
     if (category === 'Smartphone') database = state.databases.smartphone;
     else if (category === 'Smartwatch') database = state.databases.smartwatch;
+    else if (category === 'Apple Watch') database = state.databases.applewatch;
     else if (category === 'Tablet') database = state.databases.tablet;
     else if (category === 'Notebook') database = state.databases.notebook;
-    
-    const variant = database.find(p => 
-        p.Marca === brand && 
-        p.Modello === model && 
+
+    const variant = database.find(p =>
+        p.Marca === brand &&
+        p.Modello === model &&
         p.Codice_PIM.toString() === pim.toString()
     );
+
+    // For Apple Watch, extract material and connectivity from the variant
+    if (category === 'Apple Watch' && variant) {
+        state.selectedMaterial = variant.Materiale || 'n/n';
+        state.selectedConnectivity = variant.Connettività || 'n/n';
+    }
     
     if (variant) {
         state.selectedVariant = variant;
-        state.selectedMemory = variant.Memoria || variant.mm || variant.pollici || 'n/n';
+        if (category === 'Apple Watch') {
+            state.selectedMemory = variant.mm || 'n/n';
+        } else {
+            state.selectedMemory = variant.Memoria || variant.mm || variant.pollici || 'n/n';
+        }
         state.skippedColorSelection = true;
     }
     

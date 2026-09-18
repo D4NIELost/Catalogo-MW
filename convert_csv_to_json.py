@@ -6,6 +6,7 @@ import os
 csv_files = {
     'smartphone': 'databases/database_smartphone.csv',
     'smartwatch': 'databases/database_smartwatch.csv',
+    'applewatch': 'databases/database_applewatch.csv',
     'tablet': 'databases/database_tablet.csv',
     'notebook': 'databases/database_notebook.csv',
     'services': 'databases/database_servizi.csv'
