@@ -198,7 +198,10 @@ const colorMap = {
     'oro rosa (cinturino maglia oro rosa small)': '#B76E79',
     'oro rosa (cinturino maglia oro rosa)': '#B76E79',
     'oro rosa (cinturino oro rosa taglia ml)': '#B76E79',
-    'oro rosa (cinturino oro rosa taglia sm)': '#B76E79'
+    'oro rosa (cinturino oro rosa taglia sm)': '#B76E79',
+    'celestial purple': '#dad3f2',
+    'cloud blush': '#F8E4E4',
+    'sky teal': '#bcd5da'
 };
 
 // Load all databases
