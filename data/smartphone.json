@@ -1586,6 +1586,166 @@
   {
     "Marca": "Xiaomi",
     "Tipo": "Smartphone",
+    "Modello": "Redmi 17 5G",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598397
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi 17C 5G",
+    "Memoria": "128 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598408
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17",
+    "Memoria": "128 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598297
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "REDMI Note 17",
+    "Memoria": "128 GB",
+    "Colore": "Sky Teal",
+    "Codice_PIM": 598296
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "REDMI Note 17",
+    "Memoria": "128 GB",
+    "Colore": "Celestial Purple",
+    "Codice_PIM": 598293
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "REDMI Note 17",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598291
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "REDMI Note 17",
+    "Memoria": "256 GB",
+    "Colore": "Sky Teal",
+    "Codice_PIM": 598286
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17",
+    "Memoria": "256 GB",
+    "Colore": "Celestial Purple",
+    "Codice_PIM": 598263
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 5G",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598133
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 5G",
+    "Memoria": "256 GB",
+    "Colore": "Sky Teal",
+    "Codice_PIM": 598139
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 5G",
+    "Memoria": "256 GB",
+    "Colore": "Celestial Purple",
+    "Codice_PIM": 598137
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro 5G",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598126
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro 5G",
+    "Memoria": "256 GB",
+    "Colore": "Purple",
+    "Codice_PIM": 598128
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro 5G",
+    "Memoria": "256 GB",
+    "Colore": "Sky Teal",
+    "Codice_PIM": 598130
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro + Redmi Watch",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598349
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro Max 5G",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598118
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro Max 5G",
+    "Memoria": "256 GB",
+    "Colore": "Cloud Blush",
+    "Codice_PIM": 597676
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro Max 5G",
+    "Memoria": "256 GB",
+    "Colore": "Green",
+    "Codice_PIM": 598116
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro Max + Redmi Watch",
+    "Memoria": "256 GB",
+    "Colore": "Black",
+    "Codice_PIM": 598346
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "Redmi Note 17 Pro Max + Redmi Watch",
+    "Memoria": "256 GB",
+    "Colore": "Cloud Blush",
+    "Codice_PIM": 598347
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
     "Modello": "17",
     "Memoria": "512 GB",
     "Colore": "Ice Blue",
@@ -1678,6 +1838,14 @@
     "Memoria": "512 GB",
     "Colore": "Black",
     "Codice_PIM": 565475
+  },
+  {
+    "Marca": "Xiaomi",
+    "Tipo": "Smartphone",
+    "Modello": "17 Ultra",
+    "Memoria": "512 GB",
+    "Colore": "White",
+    "Codice_PIM": 565474
   },
   {
     "Marca": "Xiaomi",
